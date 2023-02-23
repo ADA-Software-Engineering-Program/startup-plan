@@ -46,3 +46,33 @@ In the project directory, you can run the command below after setting up:
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # Install Tailwind CSS with Create React App
+
+- Start by creating a new React project with Create React App.
+- Install tailwindcss via npm by running `npm install -D tailwindcss`.
+- Setup the tailwind config file by running the command `npx tailwindcss init`.
+- Configure your template paths.
+
+```
+module.exports = {
+ content: [
+   "./src/**/*.{js,jsx,ts,tsx}",
+ ],
+ theme: {
+   extend: {},
+ },
+ plugins: [],
+
+}
+
+```
+
+- Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file. :
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+```
+
+-Run your build process with `npm run start` and start using tailwindcss.
