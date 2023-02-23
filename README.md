@@ -1,6 +1,6 @@
 # StartupPlan
 
-Startup plan is a one-stop SME/Bootstrapping platform that Provides all that a business owner needs to start up and thrive in business.
+Startup plan is a SME/Bootstrapping platform that Provides customizable and user-friendly business plan templates, customer survey templates, competitive analysis and SWOT analysis templates that cater to the specific needs of startups
 
 The product will help Startups:
 
