@@ -5,7 +5,7 @@ import About from "../components/homepage/About";
 
 const Home = () => {
   return (
-    <section className="w-full h-[1000vh]">
+    <section className="w-full">
       <header className="w-full min-h-screen">
         <Navbar />
         <HeroSection />
