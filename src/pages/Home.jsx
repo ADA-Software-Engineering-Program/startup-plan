@@ -1,5 +1,7 @@
 import React from "react";
-import { About, HeroSection, Navbar } from "../components";
+import Navbar from "../components/navbar/Navbar";
+import HeroSection from "../components/homepage/HeroSection";
+import About from "../components/homepage/About";
 
 const Home = () => {
   return (
