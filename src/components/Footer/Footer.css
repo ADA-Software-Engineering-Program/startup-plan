@@ -1,0 +1,103 @@
+.footerContainer{
+position: absolute;
+margin-top: 0;
+width: 1440px;
+height: 338px;
+left: 0px;
+top: 6432px;
+
+background: rgba(255, 69, 0, 0.2);
+}
+
+.footerContent{
+position: absolute;
+width: 704.51px;
+height: 53px;
+left: 368px;
+top: 100px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 53px;
+
+color: #1E1E1E;
+
+}
+.own{
+position: absolute;
+width: 704.51px;
+height: 53px;
+left: 10px;
+top: -3px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 53px;
+
+color: #1E1E1E;
+
+}
+.owner{
+    box-sizing: border-box;
+
+position: absolute;
+width: 183px;
+height: 56px;
+left: 770px;
+top: 100px;
+
+border: 2px solid #FF4500;
+}
+.question{
+    position: absolute;
+    width: 226px;
+    height: 27px;
+    left: 607px;
+    top: 189px;
+    
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    
+    
+    color: #000000;
+    
+}
+#signBtn{
+    position: absolute;
+    width: 184px;
+    height: 47.57px;
+    left: 600px;
+    top: 250px;
+    
+    background: #FF4500;
+    border-radius: 4.19772px;
+    border: none;
+    
+}
+.sign{
+    position: absolute;
+width: 76px;
+height: 25px;
+left: 54px;
+top: 11px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+}

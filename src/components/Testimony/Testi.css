@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+position: absolute;
+width: 1446px;
+height: 708px;
+left: 0px;
+top: 0px;
+
+background: rgba(255, 69, 0, 0.2);
+}
+.heading{
+position: absolute;
+width: 264px;
+height: 53px;
+left: 582px;
+top: 80px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 53px;
+text-transform: capitalize;
+
+color: #1E1E1E;}
+
+
+.underline{
+position: absolute;
+width: 362px;
+height: 0px;
+left: 521px;
+top: 145px;
+
+border: 5px solid #1E1E1E;
+}
+
+.content{
+position: absolute;
+width: 725px;
+height: 61px;
+left: 333px;
+top: 178px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.04em;
+
+color: #1E1E1E;
+
+}
+.testi-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.testiOne{
+
+    position: absolute;
+    width: 413px;
+    height: 262px;
+    left: 74px;
+    top: 320px;
+    background: #FFFFFF;
+}
+.testiTwo{
+
+    position: absolute;
+width: 413px;
+height: 262px;
+left: 508px;
+top: 318px;
+background: #FFFFFF;
+
+    }
+    .testiThree{
+
+        position: absolute;
+width: 413px;
+height: 262px;
+left: 941px;
+top: 318px;
+background: #FFFFFF;
+        }
+
+.logoMing{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: 101px;
+}
+.line{
+    position: absolute;
+    width: 190px;
+    height: 0px;
+    left: -10px;
+    top: 130px;
+    
+    border: 2px solid rgba(255, 69, 0, 0.2);
+    transform: rotate(90deg);
+    
+}
+.innerContent{
+    position: absolute;
+width: 308px;
+height: 101px;
+left: 100px;
+top: 11px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-transform: capitalize;
+
+color: #1E1E1E;
+
+}
+.picOne{
+    position: absolute;
+width: 72px;
+height: 68px;
+left: 100px;
+top: 117px;
+}
+.name{
+    position: absolute;
+    width: 61px;
+    height: 31px;
+    left: 100px;
+    top: 190px;
+    
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: rgba(255, 69, 0, 0.2);
+}
+.role{
+    position: absolute;
+    width: 125px;
+    height: 20px;
+    left: 95px;
+    top: 221px;
+    
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #1E1E1E;
+}

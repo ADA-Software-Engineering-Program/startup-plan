@@ -1,0 +1,112 @@
+.blogContainer{
+position: absolute;
+width: 1440px;
+height: 1312px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+}
+.peoplePic{
+position: absolute;
+width: 738px;
+height: 391px;
+left: 80px;
+top: 155px;
+}
+.container{
+    position: absolute;
+width: 522px;
+height: 391px;
+left: 838px;
+top: 155px;
+
+background: rgba(255, 69, 0, 0.2);
+}
+.blogHead{
+    position: absolute;
+    width: 307px;
+    height: 53px;
+    left: 567px;
+    top: 36px;
+    
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #1E1E1E;
+}
+.contentHead{
+    position: absolute;
+    width: 500px;
+    height: 27px;
+    left: 5px;
+    top: 2px;
+    
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+    
+}
+.blogcontent1{
+    position: absolute;
+    width: 442px;
+    height: 144px;
+    margin-top: 40px;
+    
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    
+    color: #1E1E1E;
+    
+        
+}
+.container2{
+    position: absolute;
+width: 522px;
+height: 478px;
+left: 80px;
+top: 577px;
+
+background: rgba(255, 69, 0, 0.2);
+}
+.yet{
+    position: absolute;
+width: 298px;
+height: 27px;
+left: 5px;
+top: 5px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+text-transform: capitalize;
+
+color: #1E1E1E;
+
+}
+.suitPic{
+position: absolute;
+width: 716px;
+height: 478px;
+left: 644px;
+top: 577px;
+}
