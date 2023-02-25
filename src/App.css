@@ -8,6 +8,11 @@ body {
   font-family: "Crimson Pro", serif;
 }
 
+h3,
+p {
+  line-height: 1.5;
+}
+
 .w-90 {
   @apply w-[90%];
 }
@@ -89,6 +94,14 @@ body {
   margin: 20px 0;
 }
 
+.login-wrapper {
+  box-shadow: -4px -4px 8px rgba(0, 0, 0, 0.05), 4px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.login-caption {
+  font-size: 24px;
+}
+
 @media (max-width: 991px) {
   .flex-custom {
     @apply hidden flex-col bg-white fixed top-0 bottom-0 right-0 w-[250px] border-l-2 border-orange;
@@ -97,6 +110,7 @@ body {
     padding-right: 1.25rem;
     box-shadow: 1px 1px 4px 9999px rgba(0, 0, 0, 0.7);
     transition: 0.3s linear;
+    z-index: 2;
   }
 
   .activelink {
@@ -156,6 +170,10 @@ body {
 
   .card-wrapper {
     @apply flex flex-wrap justify-between;
+  }
+
+  .login-caption {
+    font-size: 28px;
   }
 }
 
@@ -229,5 +247,9 @@ body {
 
   .mission-imgSize {
     @apply w-[500px] h-[450px] mx-0;
+  }
+
+  .login-caption {
+    font-size: 32px;
   }
 }

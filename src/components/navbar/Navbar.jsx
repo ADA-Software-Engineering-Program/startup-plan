@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="w-full-custom flex justify-between items-center ">
           <figure
             className="m-0 p-0 logo-size cursor-pointer"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/startup-plan")}
           ></figure>
 
           <button
