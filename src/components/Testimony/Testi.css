@@ -1,160 +1,131 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-.containerT{
-
-width: 1446px;
-height: 708px;
-margin-top: 2px;
-
-
-background: rgba(255, 69, 0, 0.2);
-}
-.heading{
-
-width: 264px;
-
-margin-left: 40%;
-
-margin-bottom: 20px;
-
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 53px;
-text-transform: capitalize;
-
-color: #1E1E1E;}
-
-.content{
-width: 725px;
-height: 61px;
-margin-left: 20%;
-
-
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 27px;
-text-align: center;
-letter-spacing: 0.04em;
-
-color: #1E1E1E;
-
-}
-.testi-section{
-    display: flex;
-    
-    justify-content: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.testiOne{
+.heading {
+  width: 264px;
 
-    
-    width: 413px;
-    height: 262px;
-    
-    margin-right: 10px;
-    background: #FFFFFF;
-}
-.testiTwo{
+  margin-left: 40%;
 
-width: 413px;
-height: 262px;
-margin-right: 10px;
+  margin-bottom: 20px;
 
-background: #FFFFFF;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  text-transform: capitalize;
 
-    }
-    .testiThree{
-
-    
-width: 413px;
-height: 262px;
-background: #FFFFFF;
-        }
-
-.logoMing{
-    
-    width: 60px;
-    height: 60px;
-    
-}
-.line{
-    
-    width: 190px;
-    height: 0px;
-    
-    
-    border: 2px solid rgba(255, 69, 0, 0.2);
-    transform: rotate(90deg);
-    
-}
-.innerContent{
-    
-width: 308px;
-height: 90px;
-
-
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-transform: capitalize;
-
-color: #1E1E1E;
-
-}
-.picOne{
-width: 72px;
-height: 68px;
-
-}
-.name{
-    
-    width: 61px;
-    height: 31px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 31px;
-    text-align: center;
-    text-transform: capitalize;
-    
-    color: rgba(255, 69, 0, 0.2);
-}
-.role{
-    
-    width: 125px;
-    height: 20px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    
-    text-align: center;
-    text-transform: capitalize;
-    
-    color: #1E1E1E;
-}
-.subwrap{
-    display: flex;
+  color: #1e1e1e;
 }
 
-.test{
-    width: 100%;
-    display: flex;
-    margin-top: 40px;
+.content {
+  width: 725px;
+  height: 61px;
+  margin-left: 20%;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #1e1e1e;
+}
+.testi-section {
+  display: flex;
+
+  justify-content: center;
+}
+
+.testiOne {
+  width: 413px;
+  height: 262px;
+
+  margin-right: 10px;
+  background: #ffffff;
+}
+.testiTwo {
+  width: 413px;
+  height: 262px;
+  margin-right: 10px;
+
+  background: #ffffff;
+}
+.testiThree {
+  width: 413px;
+  height: 262px;
+  background: #ffffff;
+}
+
+.logoMing {
+  width: 60px;
+  height: 60px;
+}
+.line {
+  width: 190px;
+  height: 0px;
+
+  border: 2px solid rgba(255, 69, 0, 0.2);
+  transform: rotate(90deg);
+}
+.innerContent {
+  width: 308px;
+  height: 90px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+
+  color: #1e1e1e;
+}
+.picOne {
+  width: 72px;
+  height: 68px;
+}
+.name {
+  width: 61px;
+  height: 31px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: rgba(255, 69, 0, 0.2);
+}
+.role {
+  width: 125px;
+  height: 20px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #1e1e1e;
+}
+.subwrap {
+  display: flex;
+}
+
+.test {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
 }

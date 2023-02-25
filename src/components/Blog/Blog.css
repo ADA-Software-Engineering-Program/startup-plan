@@ -1,112 +1,87 @@
-.blogContainer{
-
-width: 100%;
-height: 1312px;
-
-
-background: #FFFFFF;
+.blogContainer {
+  background: #ffffff;
 }
-.peoplePic{
-
-width: 100%;
-
-
+.peoplePic {
+  width: 100%;
 }
-.containerC{
-    
-width: 522px;
-height: 391px;
+.containerC {
+  width: 522px;
+  height: 391px;
 
-
-background: rgba(255, 69, 0, 0.2);
+  background: rgba(255, 69, 0, 0.2);
 }
-.blogHead{
-    
-    width: 307px;
-    height: 53px;
-    justify-content: center;
-    margin-left: 40%;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 600px;
-    font-size: 36px;
-    line-height: 53px;
-    text-align: center;
-    
-    color: #1E1E1E;
+.blogHead {
+  width: 307px;
+  height: 53px;
+  justify-content: center;
+  margin-left: 40%;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+
+  color: #1e1e1e;
 }
-.contentHead{
-    
-    width: 500px;
-    height: 27px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    
-    text-transform: capitalize;
-    
-    color: #000000;
-    
-    
+.contentHead {
+  width: 500px;
+  height: 27px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  text-transform: capitalize;
+
+  color: #000000;
 }
-.blogcontent1{
-    
-    width: 442px;
-    height: 144px;
-    margin-top: 40px;
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 24px;
-    text-transform: capitalize;
-    
-    color: #1E1E1E;
-    
-        
+.blogcontent1 {
+  width: 442px;
+  height: 144px;
+  margin-top: 40px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  color: #1e1e1e;
 }
-.container2{
-width: 522px;
-height: 478px;
+.container2 {
+  width: 522px;
+  height: 478px;
 
-
-background: rgba(255, 69, 0, 0.2);
+  background: rgba(255, 69, 0, 0.2);
 }
-.yet{
-    
-width: 298px;
-height: 27px;
+.yet {
+  width: 298px;
+  height: 27px;
 
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
 
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 27px;
+  text-transform: capitalize;
 
-text-transform: capitalize;
-
-color: #1E1E1E;
-
+  color: #1e1e1e;
 }
-.suitPic{
-
-width: 716px;
-height: 478px;
-
+.suitPic {
+  width: 716px;
+  height: 478px;
 }
-.blogWrap{
-    display: flex;
-    width: 100%;
+.blogWrap {
+  display: flex;
+  width: 100%;
 }
-.blogWrap2{
-    display: flex;
-    width: 100%;
+.blogWrap2 {
+  display: flex;
+  width: 100%;
 }

@@ -8,8 +8,7 @@ body {
   font-family: "Crimson Pro", serif;
 }
 
-
- .w-90 {
+.w-90 {
   @apply w-[90%];
 }
 
@@ -58,6 +57,38 @@ body {
   background-size: 150px 40px;
 }
 
+.about-us h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.about-us p {
+  line-height: 1.5;
+}
+
+.mission-imgSize {
+  @apply w-[400px] h-[350px] mx-auto rounded-md overflow-hidden;
+}
+
+.mission-imgSize img {
+  object-fit: cover;
+}
+
+.learn-more {
+  @apply hover:bg-lightOrange border-2 border-orange;
+  transition: 0.3s ease;
+}
+
+.learn-more:hover a {
+  @apply text-white;
+}
+
+.cards {
+  width: 250px;
+  margin: 20px 0;
+}
+
 @media (max-width: 991px) {
   .flex-custom {
     @apply hidden flex-col bg-white fixed top-0 bottom-0 right-0 w-[250px] border-l-2 border-orange;
@@ -90,6 +121,14 @@ body {
   .flex-custom {
     @apply w-full;
   }
+
+  .mission-imgSize {
+    @apply w-full h-[350px];
+  }
+
+  .cards {
+    width: 55%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -109,6 +148,14 @@ body {
 
   .hero-img img {
     object-fit: cover;
+  }
+
+  .about-us h3 {
+    font-size: 28px;
+  }
+
+  .card-wrapper {
+    @apply flex flex-wrap justify-between;
   }
 }
 
@@ -175,4 +222,12 @@ body {
     background-position: -20px -10px;
     background-size: 150px 40px;
   }
-} 
+
+  .about-us h3 {
+    font-size: 32px;
+  }
+
+  .mission-imgSize {
+    @apply w-[500px] h-[450px] mx-0;
+  }
+}

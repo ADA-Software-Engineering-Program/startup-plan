@@ -2,7 +2,7 @@ export const navData = [
   {
     id: 1,
     navTitle: "home",
-    url: "/",
+    url: "/startup-plan",
   },
 
   {

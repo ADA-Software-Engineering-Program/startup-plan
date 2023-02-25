@@ -11,7 +11,7 @@ function App() {
   return (
     <main className="w-full">
       <Routes>
-        <Route path="/" element={<Pages.Home />} />
+        <Route path="/startup-plan" element={<Pages.Home />} />
       </Routes>
       
     </main>

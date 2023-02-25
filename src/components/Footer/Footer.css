@@ -1,97 +1,76 @@
-.footerContainer{
-margin-top: 20px;
-width: 1440px;
-height: 338px;
-
-
-background: rgba(255, 69, 0, 0.2);
+.footerContainer {
+  margin-top: 20px;
+  background: rgba(255, 69, 0, 0.2);
 }
-.fwrap{
-    display: flex;
+.fwrap {
+  display: flex;
 }
 
-.footerContent{
+.footerContent {
+  width: 704.51px;
+  height: 53px;
+  text-align: center;
 
-width: 704.51px;
-height: 53px;
-text-align: center;
-
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 53px;
-margin-left: 20%;
-color: #1E1E1E;
-
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  margin-left: 20%;
+  color: #1e1e1e;
 }
-.own{
+.own {
+  width: 704.51px;
+  height: 53px;
 
-width: 704.51px;
-height: 53px;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
 
-
-
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 53px;
-
-color: #1E1E1E;
-
+  color: #1e1e1e;
 }
-.owner{
-    box-sizing: border-box;
+.owner {
+  box-sizing: border-box;
 
+  width: 183px;
+  height: 56px;
+  justify-content: center;
 
-width: 183px;
-height: 56px;
-justify-content: center;
-
-
-border: 2px solid #FF4500;
+  border: 2px solid #ff4500;
 }
-.question{
-    
-    width: 226px;
-    height: 27px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    
-    margin-left: 40%;
-    color: #000000;
-    
+.question {
+  width: 226px;
+  height: 27px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  margin-left: 40%;
+  color: #000000;
 }
-#signBtn{
-    width: 184px;
-    height: 47.57px;
-    
-    background: #FF4500;
-    border-radius: 4.19772px;
-    border: none;
-    margin-left: 40%;
-    
+#signBtn {
+  width: 184px;
+  height: 47.57px;
+
+  background: #ff4500;
+  border-radius: 4.19772px;
+  border: none;
+  margin-left: 40%;
 }
-.sign{
-    
-width: 76px;
-height: 25px;
+.sign {
+  width: 76px;
+  height: 25px;
 
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
 
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 25px;
-
-color: #FFFFFF;
-
-
-
+  color: #ffffff;
 }

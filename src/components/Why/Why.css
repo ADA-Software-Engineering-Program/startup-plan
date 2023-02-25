@@ -1,272 +1,217 @@
+.why {
+  width: 550.02px;
+  height: 53px;
 
-.whyContainer{
-width: 100%;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
 
-background: rgba(255, 69, 0, 0.2);
+  color: #1e1e1e;
 }
-.why{
-    
-    width: 550.02px;
-    height: 53px;
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 53px;
-    
-    color: #1E1E1E;
-    
+.yLine {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
 }
-.yLine{
-    
-    width: 268px;
-    height: 0px;
-    
-    
-    border: 1px solid #1E1E1E;
-    
+.one {
+  width: 56px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
 }
-.one{
-    
-    width: 56px;
-    height: 53px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 53px;
-    
-    color: #1E1E1E;
-    
-    
+.oneHeading {
+  width: 356px;
+  height: 53px;
 
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 53px;
+
+  color: #1e1e1e;
 }
-.oneHeading{
-    
-width: 356px;
-height: 53px;
+.two {
+  width: 63px;
+  height: 53px;
 
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
 
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 53px;
-
-color: #1E1E1E;
+  color: #1e1e1e;
 }
-.two{
-    
-    width: 63px;
-    height: 53px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 53px;
-    
-    color: #1E1E1E;
-    
+.twoHeading {
+  width: 192px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
 }
-.twoHeading{
-    
-width: 192px;
-height: 53px;
+.three {
+  width: 62px;
+  height: 53px;
 
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
 
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 53px;
-
-color: #1E1E1E;
-
+  color: #1e1e1e;
 }
-.three{
-    
-    width: 62px;
-    height: 53px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 53px;
-    
-    color: #1E1E1E;
-    
+.threeHeading {
+  width: 449px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
 }
-.threeHeading{
-    
-width: 449px;
-height: 53px;
+.four {
+  width: 65px;
+  height: 53px;
 
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 53px;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
 
-color: #1E1E1E;
+  color: #1e1e1e;
 }
-.four{
-    
-    width: 65px;
-    height: 53px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 53px;
-    
-    color: #1E1E1E;
+.fourHeading {
+  width: 261px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
 }
-.fourHeading{
-    
-width: 261px;
-height: 53px;
+.oneContent {
+  width: 434px;
+  height: 189px;
 
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
 
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 53px;
-
-color: #1E1E1E;
-
-}
-.oneContent{
-    
-width: 434px;
-height: 189px;
-
-
-font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 27px;
-
-color: #1E1E1E;
+  color: #1e1e1e;
 }
 
-.twoContent{
-    
-    width: 502.24px;
-    height: 189px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 27px;
-    
-    color: #1E1E1E;
-    
-}
-.threeContent{
-    
-    width: 460.14px;
-    height: 162px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 27px;
-    
-    color: #1E1E1E;
-}
-.fourContent{
-    
-    width: 493.78px;
-    height: 189px;
-    
-    
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 27px;
-    
-    color: #1E1E1E;
-    
-}
-.yLine{
-    
-width: 268px;
-height: 0px;
+.twoContent {
+  width: 502.24px;
+  height: 189px;
 
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
 
-border: 1px solid #1E1E1E;
+  color: #1e1e1e;
 }
-.yLine1{
-    
-    width: 268px;
-    height: 0px;
-    
-    
-    border: 1px solid #1E1E1E;
-    }
-.yLine2{
-    
-width: 268px;
-height: 0px;
+.threeContent {
+  width: 460.14px;
+  height: 162px;
 
-border: 1px solid #1E1E1E;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
 
+  color: #1e1e1e;
 }
-.wrap{
-    display: flex;
-    margin-top: 30px;
-    width: 100%;
-    margin-bottom: 30px;
-    border: 2px solid black;
-}
-.wrap2{
-    display: flex;
-    border: 2px solid black;
-    width: 100%;
-    
-}
-.box1{
-    width: 50%;
-    border: 2px black;
-}
-.box2{
-    width: 50%;
-    border: 2px black;
-    margin-top: 5px;
-}
-.box3{
-    width: 50%;
-    border: 2px black;
-}
-.box4{
-    width: 50%;
-    border: 2px black;
-}
-@media only screen and (max-width:700px){
+.fourContent {
+  width: 493.78px;
+  height: 189px;
 
-.wrap{
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #1e1e1e;
+}
+.yLine {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
+}
+.yLine1 {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
+}
+.yLine2 {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
+}
+.wrap {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.wrap2 {
+  display: flex;
+
+  width: 100%;
+}
+.box1 {
+  width: 50%;
+  border: 2px black;
+}
+.box2 {
+  width: 50%;
+  border: 2px black;
+  margin-top: 5px;
+}
+.box3 {
+  width: 50%;
+  border: 2px black;
+}
+.box4 {
+  width: 50%;
+  border: 2px black;
+}
+@media only screen and (max-width: 700px) {
+  .wrap {
     flex-direction: column;
-}
-.wrap2{
+  }
+  .wrap2 {
     flex-direction: column;
-}
-
-
-
+  }
 }
