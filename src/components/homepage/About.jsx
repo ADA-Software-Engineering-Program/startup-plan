@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="w-90 mx-auto py-2 bg-aboutBg">
+    <section
+      className="w-90 mx-auto py-2 bg-[rgba(255, 69, 0, 0.2)]"
+      style={{ backgroundColor: "rgba(255, 69, 0, 0.2)" }}
+    >
       <div className="w-90 mx-auto py-3">
         <div className="w-full about-us mb-5">
           <h3 className="capitalize text-center">about us</h3>
