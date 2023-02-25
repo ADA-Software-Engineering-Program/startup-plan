@@ -2,7 +2,10 @@ import React from "react";
 
 const Cardcontent = ({ figure, text, numbers }) => {
   return (
-    <div className="py-5 px-4 cards bg-aboutBg">
+    <div
+      className="py-5 px-4 cards"
+      style={{ backgroundColor: "rgba(255, 69, 0, 0.2)" }}
+    >
       <figure className="w-[70px] h-[70px] mx-auto ">
         <img src={figure} alt="figure-name" className="w-full h-full" />
       </figure>
