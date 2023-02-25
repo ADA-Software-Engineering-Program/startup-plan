@@ -9,6 +9,7 @@ const NavLinks = () => {
         return (
           <li key={item.id} className="capitalize custom-li">
             <NavLink
+              aria-current="true"
               to={item.url}
               className={({ isActive }) =>
                 isActive ? "activelink" : "inactivelink"
