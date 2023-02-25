@@ -1,0 +1,217 @@
+.why {
+  width: 550.02px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.yLine {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
+}
+.one {
+  width: 56px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.oneHeading {
+  width: 356px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.two {
+  width: 63px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.twoHeading {
+  width: 192px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.three {
+  width: 62px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.threeHeading {
+  width: 449px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.four {
+  width: 65px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.fourHeading {
+  width: 261px;
+  height: 53px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #1e1e1e;
+}
+.oneContent {
+  width: 434px;
+  height: 189px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #1e1e1e;
+}
+
+.twoContent {
+  width: 502.24px;
+  height: 189px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #1e1e1e;
+}
+.threeContent {
+  width: 460.14px;
+  height: 162px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #1e1e1e;
+}
+.fourContent {
+  width: 493.78px;
+  height: 189px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #1e1e1e;
+}
+.yLine {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
+}
+.yLine1 {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
+}
+.yLine2 {
+  width: 268px;
+  height: 0px;
+
+  border: 1px solid #1e1e1e;
+}
+.wrap {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.wrap2 {
+  display: flex;
+
+  width: 100%;
+}
+.box1 {
+  width: 50%;
+  border: 2px black;
+}
+.box2 {
+  width: 50%;
+  border: 2px black;
+  margin-top: 5px;
+}
+.box3 {
+  width: 50%;
+  border: 2px black;
+}
+.box4 {
+  width: 50%;
+  border: 2px black;
+}
+@media only screen and (max-width: 700px) {
+  .wrap {
+    flex-direction: column;
+  }
+  .wrap2 {
+    flex-direction: column;
+  }
+}

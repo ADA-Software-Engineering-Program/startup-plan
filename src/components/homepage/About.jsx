@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <section className="w-90 mx-auto py-2 bg-lightOrange">
+    <section className="w-90 mx-auto py-2 bg-aboutBg">
       <div className="w-90 mx-auto py-3">
         <div className="w-full about-us mb-5">
           <h3 className="capitalize text-center">about us</h3>

@@ -7,7 +7,7 @@ module.exports = {
         orange: "#FF4500",
         brown: "#21DE06",
         lightOrange: "rgba(255, 69, 0, 0.41)",
-        aboutBg: "(255, 69, 0, 0.2)",
+        aboutBg: "rgba(255, 69, 0, 0.2)",
       },
       screens: {
         "2md": "992px",
