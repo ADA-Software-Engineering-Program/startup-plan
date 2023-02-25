@@ -3,10 +3,14 @@ import "./Why.css";
 
 const Why = () => {
   return (
-    <div className="whyContainer">
-      <div className="why">Why Choose Us?</div>
+    <section className="whyContainer mt-4">
+        <div className="w-90 mx-auto py-6">
+
+      <h1 className="why mb-3">
+        Why Choose Us?</h1>
       <div className="yLine"></div>
-      <div>
+      <div className="wrap">
+      <div className="box1">
         <div className="one">01.</div>
         <div className="oneHeading">Customer Service</div>
         <div className="oneContent">
@@ -15,9 +19,9 @@ const Why = () => {
           tirelessly to make that happen. We will be available to answer any
           questions or concerns you may have throughout the entire process.
         </div>
-        <div className="yLine1"></div>
+        <div className="yLine1 mt-9"></div>
       </div>
-
+     <div className="box2">
       <div className="two">02.</div>
       <div className="twoHeading">Expertise</div>
       <div className="twoContent">
@@ -27,8 +31,11 @@ const Why = () => {
         Lawyers to assist with legal advice. this trends to help you make
         informed decisions while chosing a template.
       </div>
-      <div className="yLine2"></div>
-
+      <div className="yLine2 mt-9"></div>
+      </div>
+      </div>
+     <div className="wrap2">
+     <div className="box3">
       <div className="three">03.</div>
       <div className="threeHeading">Customized Approach</div>
       <div className="threeContent">
@@ -37,7 +44,9 @@ const Why = () => {
         the time to truly understand your needs and preferences, so we can help
         you launch your business.
       </div>
+      </div>
 
+    <div className="box4">
       <div className="four">04.</div>
       <div className="fourHeading">Convenience</div>
       <div className="fourContent">
@@ -47,7 +56,11 @@ const Why = () => {
         additional services Tax registration, Public and Private Company
         Incorporation etc..
       </div>
-    </div>
+      </div>
+      </div>
+      
+        </div>
+    </section>
   );
 };
 

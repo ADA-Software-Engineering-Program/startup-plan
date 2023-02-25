@@ -8,13 +8,14 @@ body {
   font-family: "Crimson Pro", serif;
 }
 
-.w-90 {
+
+ .w-90 {
   @apply w-[90%];
 }
 
 .logo-size {
   @apply w-[150px] h-[40px];
-  background: url("../public/assets/Logo.svg");
+  background: url("./assets/Logo.svg");
   background-repeat: no-repeat;
   background-position: -20px -10px;
   background-size: 150px 40px;
@@ -51,7 +52,7 @@ body {
 
 .navOnScroll .logo-size {
   @apply w-[150px] h-[40px];
-  background: url("../public/assets/logo2.svg");
+  background: url("./assets/logo2.svg");
   background-repeat: no-repeat;
   background-position: -20px -10px;
   background-size: 150px 40px;
@@ -169,9 +170,9 @@ body {
 
   .navOnScroll .logo-size {
     @apply w-[150px] h-[40px];
-    background: url("../public/assets/logo2.svg");
+    background: url("./assets/logo2.svg");
     background-repeat: no-repeat;
     background-position: -20px -10px;
     background-size: 150px 40px;
   }
-}
+} 
