@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import heroimg from "../../assets/hero-img.svg";
 
 const HeroSection = () => {
   return (
@@ -7,7 +8,7 @@ const HeroSection = () => {
       <div className="w-90 mx-auto md:flex md:items-center md:justify-between md:flex-row-reverse md:gap-10">
         <figure className="hero-img">
           <img
-            src="/assets/hero-img.svg"
+            src={heroimg}
             alt="hero-pic"
             className="w-full h-full rounded-md"
           />

@@ -20,7 +20,7 @@ const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", (e) => {
       const scrolled = document.documentElement.scrollTop;
-      if (scrolled > 100) {
+      if (scrolled > 60) {
         navref.current.classList.add("navOnScroll");
       } else {
         navref.current.classList.remove("navOnScroll");

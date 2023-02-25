@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import HeroSection from "../components/homepage/HeroSection";
 import About from "../components/homepage/About";
+import Card from "../components/homepage/homepagecards/Card";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
 
       <section className="full mt-5">
         <About />
+        <Card />
       </section>
     </section>
   );
