@@ -8,7 +8,7 @@ The product will help Startups:
 2. Access customer survey samples.
 3. Register businesses with appropriate institutions.
 4. Procure affordable legal and financial consultation.
-
+// "start": "react-scripts --openssl-legacy-provider start",
 ## Functional Requirements
 
 1. Shows the header and an overview of what to expect.
