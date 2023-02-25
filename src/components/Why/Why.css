@@ -5,7 +5,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -23,7 +23,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -35,7 +35,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -47,7 +47,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -59,7 +59,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -71,7 +71,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -83,7 +83,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -95,7 +95,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
@@ -107,19 +107,19 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
 
   color: #1e1e1e;
 }
 .oneContent {
   width: 434px;
-  height: 189px;
+  height: 189px; 
 
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 27px;
 
   color: #1e1e1e;
@@ -132,7 +132,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 27px;
 
   color: #1e1e1e;
@@ -144,7 +144,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 27px;
 
   color: #1e1e1e;
@@ -156,7 +156,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 27px;
 
   color: #1e1e1e;
@@ -214,4 +214,17 @@
   .wrap2 {
     flex-direction: column;
   }
+  
+}
+
+
+
+
+@media only screen and (max-width: 1150px) {
+
+.oneContent, .twoContent, .threeContent, .fourContent{
+  width: 80%;
+  height: 70%;
+}
+
 }

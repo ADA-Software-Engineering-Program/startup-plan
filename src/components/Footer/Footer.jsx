@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,14 +12,20 @@ const Footer = () => {
             <div className="owner">
               <p className="own">owner?</p>
             </div>
+            
           </div>
-          <div className="question">Register with us Today</div>
-
-          <button id="signBtn">
-            <p className="sign">Sign up</p>
-          </button>
-        </div>
+          <p>Register with us Today</p>
+         </div>
+         <div className="w-[200px] mx-auto h-[45px] bg-orange mt-[45px] rounded-md learn-more">
+          <Link
+            to="/"
+            className="w-full h-full flex justify-center items-center text-base text-white capitalize font-bold"
+          >
+            learn more
+          </Link>
+          </div>
       </section>
+      
     </div>
   );
 };

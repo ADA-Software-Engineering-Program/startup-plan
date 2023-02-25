@@ -2,6 +2,7 @@ import React from "react";
 import "./Blog.css";
 import people from "../../assets/people.png";
 import suit from "../../assets/suit.png";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
@@ -9,6 +10,7 @@ const Blog = () => {
     <div className="w-90 mx-auto py-3" >
 
       <h1 className="blogHead mt-6">Blogs and News</h1>
+      <div className="bWrap">
       <div className="blogWrap mt-12">
       <div className="peoplePic">
         <img src={people} alt="people" />
@@ -43,6 +45,15 @@ const Blog = () => {
         <img src={suit} alt="suit" />
       </div>
       </div>
+      </div>
+      <div className="w-[200px] mx-auto h-[45px] bg-orange mt-[45px] rounded-md learn-more">
+          <Link
+            to="/"
+            className="w-full h-full flex justify-center items-center text-base text-white capitalize font-bold"
+          >
+            learn more
+          </Link>
+        </div>
       </div>
     </section>
   );
