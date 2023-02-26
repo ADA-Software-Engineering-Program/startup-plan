@@ -22,7 +22,7 @@ const Home = () => {
         <Why />
         <Blog />
         <Testi />
-        <Footer />
+        <Footer />    
       </section>
     </section>
   );

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <section className="blogContainer mt-6"> 
+    <section className="blogContainer w-90 mt-6"> 
     <div className="w-90 mx-auto py-3" >
 
       <h1 className="blogHead mt-6">Blogs and News</h1>
@@ -15,7 +15,7 @@ const Blog = () => {
       <div className="peoplePic">
         <img src={people} alt="people" />
       </div>
-      <div className="containerC w-100 mx-auto">
+      <div className="containerC">
         <h3 className="contentHead">
           Fulfil your dreams of becoming a business owner
         </h3>
