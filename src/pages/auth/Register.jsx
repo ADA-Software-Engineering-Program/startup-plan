@@ -12,7 +12,7 @@ const Register = () => {
     username: "",
     email: "",
     password: "",
-    comfirm_password: "",
+    confirm_password: "",
   });
   const [checked, setChecked] = useState(false);
   const handleCheckboxChange = () => {
