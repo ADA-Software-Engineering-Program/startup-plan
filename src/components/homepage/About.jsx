@@ -46,7 +46,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-[200px] mx-auto h-[45px] bg-orange mt-[45px] rounded-md learn-more">
+        <div className="w-[200px] mx-auto h-[45px] bg-orange mt-[45px] rounded-md learn_more">
           <Link
             to="/"
             className="w-full h-full flex justify-center items-center text-base text-white capitalize font-bold"

@@ -52,6 +52,7 @@ p {
 
 .navOnScroll {
   @apply bg-orange fixed top-0 left-0 right-0 !important;
+  z-index: 2;
 }
 
 .navOnScroll .logo-size {
@@ -80,18 +81,18 @@ p {
   object-fit: cover;
 }
 
-.learn-more {
+.learn_more {
   @apply hover:bg-lightOrange border-2 border-orange;
   transition: 0.3s ease;
 }
 
-.learn-more:hover a {
+.learn_more:hover a {
   @apply text-white;
 }
 
 .cards {
   width: 250px;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .login-wrapper {
@@ -100,6 +101,16 @@ p {
 
 .login-caption {
   font-size: 24px;
+}
+
+.carousel-wrapper {
+  @apply flex flex-col justify-between;
+}
+
+.carousel-card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 991px) {
@@ -149,6 +160,10 @@ p {
   .hero-img {
     @apply w-[100%] h-[400px] mx-auto;
   }
+
+  .carousel-card {
+    width: 350px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -172,8 +187,16 @@ p {
     @apply flex flex-wrap justify-between;
   }
 
+  .cards {
+    margin: 20px 0;
+  }
+
   .login-caption {
     font-size: 28px;
+  }
+
+  .carousel-card {
+    width: 400px;
   }
 }
 
@@ -249,7 +272,13 @@ p {
     @apply w-[500px] h-[450px] mx-0;
   }
 
-  .login-caption {
-    font-size: 32px;
+  .carousel-wrapper {
+    flex-direction: row;
+    gap: 30px;
+    overflow: hidden;
+  }
+
+  .carousel-card {
+    flex-shrink: 0;
   }
 }
