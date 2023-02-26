@@ -1,6 +1,6 @@
 .blogContainer {
   background: #ffffff;
-  border: 2px solid black;
+  
   width: 90%;
 }
 .peoplePic {
@@ -21,7 +21,7 @@
 .blogHead {
   /* width: 307px; */
   width: 90%;
-  border: 2px solid black;
+  
   justify-content: center;
 
 
