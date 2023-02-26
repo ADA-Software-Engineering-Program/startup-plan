@@ -52,6 +52,7 @@ p {
 
 .navOnScroll {
   @apply bg-orange fixed top-0 left-0 right-0 !important;
+  z-index: 2;
 }
 
 .navOnScroll .logo-size {
@@ -91,7 +92,7 @@ p {
 
 .cards {
   width: 250px;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .login-wrapper {
@@ -172,6 +173,10 @@ p {
     @apply flex flex-wrap justify-between;
   }
 
+  .cards {
+    margin: 20px 0;
+  }
+
   .login-caption {
     font-size: 28px;
   }
@@ -247,9 +252,5 @@ p {
 
   .mission-imgSize {
     @apply w-[500px] h-[450px] mx-0;
-  }
-
-  .login-caption {
-    font-size: 32px;
   }
 }
