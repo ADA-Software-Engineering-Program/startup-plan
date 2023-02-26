@@ -19,10 +19,10 @@ const Home = () => {
       <section className="full mt-5">
         <About />
         <Card />
-        <Why />
-        <Blog />
+        {/* <Why />
+        <Blog /> */}
         <Testi />
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </section>
   );
