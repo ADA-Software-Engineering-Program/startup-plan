@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <section className="blogContainer mt-6"> 
+    <section className="blogContainer w-90 mt-6"> 
     <div className="w-90 mx-auto py-3" >
 
       <h1 className="blogHead mt-6">Blogs and News</h1>
