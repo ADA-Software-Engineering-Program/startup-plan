@@ -1,79 +1,44 @@
 import React from "react";
 import "./Testi.css";
-import ming from "../../assets/ming.png";
+
 import pic1 from "../../assets/pic1.png";
 import pic2 from "../../assets/pic2.png";
 import pic3 from "../../assets/pic3.png";
+import Carousel from "../testimonial/Carousel";
 
 const Testi = () => {
   return (
-    <section className="containerT w-90 mx-auto bg-aboutBg">
-      <div className="w-90 mx-auto">
-        <h1 className="heading">Testimonials</h1>
-
-        <div className="content">
-          We take pride in customers satifaction. Here are some reviews and
-          comments from previous customers on our services.
+    <section className="mt-8 w-90 mx-auto bg-aboutBg">
+      <div className="w-full mx-auto py-4">
+        <div className="w-90 mx-auto about-us mb-5">
+          <h3 className="capitalize text-center">testimonials</h3>
+          <p className="w-full text-center sm:w-[500px] mx-auto my-3 ">
+            We take pride in customers satifaction. Here are some reviews and
+            comments from previous customers on our services.
+          </p>
         </div>
-        <div className="test w-90">
-          <div className="testiOne">
-            <div className="subwrap">
-              <div className="logoMing">
-                <img src={ming} alt="ming" />
-              </div>
-              <div className="line"></div>
-            </div>
-            
-            <h1 className="innerContent">
-              One the best business platform i have ever seen, I highly
-              recommend. was really confused on how to set up my business, I was
-              able to find my feet through this website. i highly recommend!
-            </h1>
-            <div className="picOne">
-              <img src={pic1} alt="pic1" />
-            </div>
-            <h3 className="name">Mary</h3>
-            <h3 className="role">Product Designer</h3>
-            
-          </div>
 
-          <div className="testiTwo">
-            <div className="logoMing2">
-              <img src={ming} alt="ming" />
-            </div>
-            <div className="line2"></div>
-           
-            <div className="innerContent">
-              registering my business through this platform was so swift.
-              Customer service is top notch. I love it
-            </div>
-            <div className="picOne">
-              <img src={pic2} alt="pic2" />
-            </div>
-            <div className="name">Sylvia</div>
-            <div className="role">Product Designer</div>
-            
-          </div>
-
-          <div className="testiThree">
-            <div className="logoMing3">
-              <img src={ming} alt="ming" />
-            </div>
-            <div className="line3"></div> 
-           
-            <div className="innerContent">
-              Startup plan is really a genuine company. Their legal services
-              really helped boost my business. would recommend to business
-              owners and startups
-            </div>
-            <div className="picOne">
-              <img src={pic3} alt="pic3" />
-            </div>
-            <div className="name">Chiamaka</div>
-            <div className="role">Product Designer</div>
-            
-          </div>
-        </div>
+        <section className="carousel-wrapper w-full mt-9">
+          <Carousel
+            text="One the best business platform i have ever seen, I was  able to find my feet through this website. i highly recommend!"
+            pic={pic1}
+            title="product designer"
+            name="mary"
+          />
+          <Carousel
+            text="Registering my business through this platform was so swift. Customer service is top notch. I love it "
+            pic={pic2}
+            title="product designer"
+            name="sylvia"
+          />
+          <Carousel
+            text="Startup plan is really a genuine company.
+Their legal services really helped boost my business. would recommend to business owners and startups"
+            pic={pic3}
+            title="product designer"
+            name="chiamaka"
+          />
+        </section>
       </div>
     </section>
   );

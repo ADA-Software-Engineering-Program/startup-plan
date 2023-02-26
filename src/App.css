@@ -81,12 +81,12 @@ p {
   object-fit: cover;
 }
 
-.learn-more {
+.learn_more {
   @apply hover:bg-lightOrange border-2 border-orange;
   transition: 0.3s ease;
 }
 
-.learn-more:hover a {
+.learn_more:hover a {
   @apply text-white;
 }
 
@@ -101,6 +101,16 @@ p {
 
 .login-caption {
   font-size: 24px;
+}
+
+.carousel-wrapper {
+  @apply flex flex-col justify-between;
+}
+
+.carousel-card {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 991px) {
@@ -150,6 +160,10 @@ p {
   .hero-img {
     @apply w-[100%] h-[400px] mx-auto;
   }
+
+  .carousel-card {
+    width: 350px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -179,6 +193,10 @@ p {
 
   .login-caption {
     font-size: 28px;
+  }
+
+  .carousel-card {
+    width: 400px;
   }
 }
 
@@ -252,5 +270,15 @@ p {
 
   .mission-imgSize {
     @apply w-[500px] h-[450px] mx-0;
+  }
+
+  .carousel-wrapper {
+    flex-direction: row;
+    gap: 30px;
+    overflow: hidden;
+  }
+
+  .carousel-card {
+    flex-shrink: 0;
   }
 }
