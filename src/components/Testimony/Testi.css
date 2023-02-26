@@ -8,14 +8,14 @@
 }
 .containerT {
   margin-top: 2px;
-min-width: 100%;
-height:100%;
+width: 90%;
+
   background: rgba(255, 69, 0, 0.2);
   margin-top: 60px;
   margin-bottom: 40px;
 }
 .heading {
-  width: 264px;
+  /* width: 264px; */
 
   margin-left: 40%;
 
@@ -32,8 +32,8 @@ height:100%;
 }
 
 .content {
-  width: 725px;
-  height: 61px;
+  /* width: 725px; */
+  
   margin-left: 20%;
 
   font-family: "Crimson Pro";
@@ -47,7 +47,7 @@ height:100%;
   color: #1e1e1e;
 }
 .test {
-  max-width: 100%;
+  width: 90%;
   position: relative;
   display: flex;
 margin-bottom: 30px;
@@ -56,8 +56,8 @@ margin-bottom: 30px;
 
 .testiOne {
   position: relative;
-  width: 100%;
-  height: 90%;
+  width: 50%;
+  
   margin-left:30px;
   margin-right: 10px;
   background: #ffffff;
@@ -66,16 +66,16 @@ margin-bottom: 30px;
 }
 .testiTwo {
   position: relative;
-  width: 100%;
-  height: 90%;
+  width: 50%;
+  
   margin-right: 10px;
 
   background: #ffffff;
 }
 .testiThree {
   position: relative;
-  width: 100%;
-  height: 80%;
+  width: 50%;
+  
   background: #ffffff;
 }
 
@@ -104,7 +104,7 @@ margin-bottom: 30px;
 
 .line {
   position: absolute;
-  width: 190px;
+  width: 2%;
   height: 0px;
   bottom:50%;
   right:60%;
@@ -134,8 +134,8 @@ margin-bottom: 30px;
 }
 
 .innerContent {
-  width: 308px;
-  height: 90px;
+  width: 90%;
+  
   margin-top: 0;
   font-family: "Crimson Pro";
   font-style: normal;
@@ -150,7 +150,7 @@ margin-bottom: 30px;
   color: #1e1e1e;
 }
 .evry{
-  border-left:2px solid rgba(255, 69, 0, 0.2); ;
+  border-left:2px solid rgba(255, 69, 0, 0.2); 
   margin-left: 60px;
 }
 .picOnee {
@@ -164,7 +164,7 @@ margin-bottom: 30px;
 }
 .name {
   width: 61px;
-  height: 31px;
+  height: auto;
   margin-left: 70px;
   font-family: "Crimson Pro";
   font-style: normal;
@@ -206,17 +206,20 @@ margin-bottom: 30px;
   }
   .testiOne {
     position: relative;
-    width: 70%;
-    height: 90%;
+    width: 90%;
+    
     margin-left:30px;
     margin-right: 10px;
     background: #ffffff;
     margin-bottom: 10px;
   }
+  .innerContent{
+    width: 85%;
+  }
   .testiTwo {
     position: relative;
-    width: 70%;
-    height: 90%;
+    width: 90%;
+    
     margin-left:30px;
     margin-right: 10px;
     background: #ffffff;
@@ -224,22 +227,19 @@ margin-bottom: 30px;
   }
   .testiThree {
     position: relative;
-    width: 70%;
-    height: 90%;
+    width: 90%;
     margin-left:30px;
     margin-right: 10px;
     background: #ffffff;
     margin-bottom: 50px;
   }
-  .heading{
-   width:200px;
-  }
+  
   .content{
-    width:500px;
+    /* width: */
     margin-left: 30px;
   }
 } 
-@media only screen and (max-width: 390px) {
+/* @media only screen and (max-width: 390px) {
   .test {
     flex-direction: column;
   }
@@ -525,4 +525,4 @@ margin-bottom: 30px;
           transform: 
           rotate(90deg);}
       
-       }
+       } */
