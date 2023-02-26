@@ -19,7 +19,7 @@ const Carousel = ({ pic, text, name, title }) => {
           </figure>
 
           <div className="mt-3">
-            <h3 className="text text-aboutBg font-bold">{name}</h3>
+            <h3 className="text text-aboutBg font-bold capitalize">{name}</h3>
             <p className="mt-1 capitalize font-bold">{title}</p>
           </div>
         </div>
