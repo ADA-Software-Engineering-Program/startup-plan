@@ -2,11 +2,13 @@
   background: #ffffff;
 }
 .peoplePic {
-  width: 100%;
+  min-width: 50%;
+  min-height: 100%;
 }
 .containerC {
-  width: 522px;
-  height: 391px;
+  width: 70%;
+  margin-left: 20px;
+  
 
   background: rgba(255, 69, 0, 0.2);
 }
@@ -28,11 +30,13 @@
 .contentHead {
   width: 500px;
   height: 27px;
+  margin-left: 20px;
+  margin-top: 20px;
 
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 27px;
 
   text-transform: capitalize;
@@ -40,33 +44,36 @@
   color: #000000;
 }
 .blogcontent1 {
-  width: 442px;
-  height: 144px;
-  margin-top: 40px;
+  min-width: 30%;
+  min-height: 90%;
+  margin-top: 20px;
+  margin-left: 20px;
 
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 24px;
   text-transform: capitalize;
 
   color: #1e1e1e;
 }
 .container2 {
-  width: 522px;
-  height: 478px;
+  width: 70%;
+  
+  
 
   background: rgba(255, 69, 0, 0.2);
 }
 .yet {
   width: 298px;
   height: 27px;
-
+  margin-left: 20px;
+  margin-top: 20px;
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 27px;
 
   text-transform: capitalize;
@@ -74,14 +81,89 @@
   color: #1e1e1e;
 }
 .suitPic {
-  width: 716px;
-  height: 478px;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
 }
 .blogWrap {
   display: flex;
-  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
 .blogWrap2 {
   display: flex;
   width: 100%;
+}
+
+@media only screen and (max-width: 834px) {
+  .blogWrap{
+    flex-direction: column;
+    width: 70%;
+  }
+  .blogWrap2{
+    flex-direction: column;
+    width: 70%;
+  }
+  .blogHead{
+    margin-left: 20px;
+  }
+  .learn-more{
+    margin-left: 100px;}
+    .peoplepic{
+    width: 70%;
+    }
+    .suitPic{
+     width: 70%;
+    }
+    .contentHead{
+      width: 250px;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .peoplePic{
+      min-width: 70%;
+      min-height: 100%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .suitPic{
+      min-width: 70%;
+      height: 100%;
+    }
+    .container2{
+      width: 70%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .yet{
+      font-size: 16px;
+    }
+    
+    }
+    
+  
+  @media only screen and (max-width: 900px) {
+    .blogHead{
+      width:50%;
+    }
+    .peoplePic{
+      width: 70%;
+      height: 100%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .suitPic{
+      min-width: 70%;
+      min-height: 100%;
+    }
+    
+    
+  }
+  
+
+@media only screen and (max-width: 1040px) {
+  
+  .suitPic{
+    height: 100%;
+  }
 }

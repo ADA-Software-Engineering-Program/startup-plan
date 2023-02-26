@@ -1,13 +1,18 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  
 }
 .containerT {
   margin-top: 2px;
-
+max-width: 100%;
+height:100%;
   background: rgba(255, 69, 0, 0.2);
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 .heading {
   width: 264px;
@@ -19,7 +24,7 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 53px;
   text-transform: capitalize;
 
@@ -34,76 +39,133 @@
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 27px;
   text-align: center;
   letter-spacing: 0.04em;
 
   color: #1e1e1e;
 }
-.testi-section {
+.test {
+  max-width: 100%;
+  position: relative;
   display: flex;
-
+margin-bottom: 30px;
   justify-content: center;
 }
 
 .testiOne {
-  width: 413px;
-  height: 262px;
-
+  position: relative;
+  width: 100%;
+  height: 90%;
+  margin-left:30px;
   margin-right: 10px;
   background: #ffffff;
+  margin-bottom: 50px;
+  
 }
 .testiTwo {
-  width: 413px;
-  height: 262px;
+  position: relative;
+  width: 100%;
+  height: 90%;
   margin-right: 10px;
 
   background: #ffffff;
 }
 .testiThree {
-  width: 413px;
-  height: 262px;
+  position: relative;
+  width: 100%;
+  height: 80%;
   background: #ffffff;
 }
 
 .logoMing {
-  width: 60px;
-  height: 60px;
+  position: absolute;
+  width: 20%;
+  height: 5%;
+  top: 60px;
+  right: 82%;
 }
+.logoMing2 {
+  position: absolute;
+  width: 20%;
+  height: 5%;
+  top: 60px;
+  right: 82%;
+}
+
+.logoMing3 {
+  position: absolute;
+  width: 20%;
+  height: 5%;
+  top: 60px;
+  right: 82%;
+}
+
 .line {
+  position: absolute;
   width: 190px;
   height: 0px;
-
+  bottom:50%;
+  right:60%;
   border: 2px solid rgba(255, 69, 0, 0.2);
-  transform: rotate(90deg);
+  transform: 
+  rotate(90deg);
 }
+.line2 {
+  position: absolute;
+  width: 190px;
+  height: 0px;
+  bottom:50%;
+  right:60%;
+  border: 2px solid rgba(255, 69, 0, 0.2);
+  transform: 
+  rotate(90deg);
+}
+.line3 {
+  position: absolute;
+  width: 190px;
+  height: 0px;
+  bottom:50%;
+  right:60%;
+  border: 2px solid rgba(255, 69, 0, 0.2);
+  transform: 
+  rotate(90deg);
+}
+
 .innerContent {
   width: 308px;
   height: 90px;
-
+  margin-top: 0;
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-transform: capitalize;
-
+  margin-left: 70px;
+  justify-content: end;
+  
+  
   color: #1e1e1e;
 }
+.evry{
+  border-left:2px solid rgba(255, 69, 0, 0.2); ;
+  margin-left: 60px;
+}
 .picOne {
-  width: 72px;
-  height: 68px;
+  width: 20%;
+  height: 10%;
+  margin-left: 70px;
 }
 .name {
   width: 61px;
   height: 31px;
-
+  margin-left: 70px;
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
-  line-height: 31px;
+  font-size: 20px;
   text-align: center;
   text-transform: capitalize;
 
@@ -118,7 +180,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-
+  margin-left: 70px;
   text-align: center;
   text-transform: capitalize;
 
@@ -126,6 +188,7 @@
 }
 .subwrap {
   display: flex;
+  
 }
 
 .test {
@@ -133,3 +196,36 @@
   display: flex;
   margin-top: 40px;
 }
+/* @media only screen and (max-width: 700px) {
+  .test {
+    flex-direction: column;
+  }
+  .testiOne {
+    position: relative;
+    width: 70%;
+    height: 90%;
+    margin-left:30px;
+    margin-right: 10px;
+    background: #ffffff;
+    margin-bottom: 10px;
+  }
+  .testiTwo {
+    position: relative;
+    width: 70%;
+    height: 90%;
+    margin-left:30px;
+    margin-right: 10px;
+    background: #ffffff;
+    margin-bottom: 10px;
+  }
+  .testiThree {
+    position: relative;
+    width: 70%;
+    height: 90%;
+    margin-left:30px;
+    margin-right: 10px;
+    background: #ffffff;
+    margin-bottom: 50px;
+  }
+  
+} */
