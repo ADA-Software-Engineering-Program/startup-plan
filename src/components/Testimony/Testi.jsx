@@ -15,7 +15,7 @@ const Testi = () => {
           We take pride in customers satifaction. Here are some reviews and
           comments from previous customers on our services.
         </div>
-        <div className="test w-90">
+        <div className="test-fluid w-90">
           <div className="testiOne">
             <div className="subwrap">
               <div className="logoMing">
@@ -24,12 +24,12 @@ const Testi = () => {
               <div className="line"></div>
             </div>
             
-            <h1 className="innerContent">
+            <h1 className="innerContent img-fluid">
               One the best business platform i have ever seen, I highly
               recommend. was really confused on how to set up my business, I was
               able to find my feet through this website. i highly recommend!
             </h1>
-            <div className="picOne">
+            <div className="picOnee">
               <img src={pic1} alt="pic1" />
             </div>
             <h3 className="name">Mary</h3>

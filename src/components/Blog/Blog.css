@@ -44,7 +44,7 @@
   color: #000000;
 }
 .blogcontent1 {
-  min-width: 30%;
+  min-width: 90%;
   min-height: 90%;
   margin-top: 20px;
   margin-left: 20px;
@@ -98,11 +98,11 @@
 @media only screen and (max-width: 834px) {
   .blogWrap{
     flex-direction: column;
-    width: 70%;
+    width: 90%;
   }
   .blogWrap2{
     flex-direction: column;
-    width: 70%;
+    width: 90%;
   }
   .blogHead{
     margin-left: 20px;
@@ -166,4 +166,11 @@
   .suitPic{
     height: 100%;
   }
+}
+@media only screen and (max-width: 350px) {
+.containerC{min-width: 70%;
+}
+.contentHead{
+  width: 200px;
+}
 }

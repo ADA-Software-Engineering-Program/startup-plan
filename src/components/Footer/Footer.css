@@ -7,11 +7,13 @@
   display: flex;
   justify-content: center;
   justify-items: center;
+  width: 100%;
 }
 
 .footerContent {
-  width: 11%;
+  min-width: 11%;
   height: 53px;
+  margin-left: 0px;
   
 
   font-family: "Crimson Pro";
@@ -23,7 +25,7 @@
   color: #1e1e1e;
 }
 .own {
-  width:11%;
+  min-width:11%;
   height: 53px;
   
   border: 2px solid #ff4500; ;
@@ -72,5 +74,14 @@
 }
 .fa{
   margin-right: 5px;
+
+}
+@media only screen and (max-width: 700px) {
+   .footerContent{
+    margin: 0px;
+width: 20%}
+  .own{
+width: 18%;
+  } 
 
 }

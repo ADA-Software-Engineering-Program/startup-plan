@@ -19,7 +19,7 @@ const Footer = () => {
             
           </div>
           <div>
-          <p className="register flex justify-center items-center">Register with us Today</p></div>
+          <p className="register">Register with us Today</p></div>
           
          <div className="w-[200px] mx-auto h-[45px] bg-orange mt-[30px] rounded-md signUp">
           <Link

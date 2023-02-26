@@ -15,7 +15,7 @@ const Blog = () => {
       <div className="peoplePic">
         <img src={people} alt="people" />
       </div>
-      <div className="containerC w-100 mx-auto">
+      <div className="containerC">
         <h3 className="contentHead">
           Fulfil your dreams of becoming a business owner
         </h3>
