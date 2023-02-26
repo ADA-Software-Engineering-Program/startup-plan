@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/startup-plan" element={<Pages.Home />} />
         <Route path="/startup-plan/login" element={<Pages.Login />} />
+        <Route path="/startup-plan/register" element={<Pages.Register />} />
       </Routes>
     </main>
   );

@@ -4,6 +4,7 @@ import PrimaryInput from "../../components/inputs/PrimaryInput";
 import PrimaryPassword from "../../components/inputs/PrimaryPassword";
 import { Link } from "react-router-dom";
 import { FaQuestionCircle } from "react-icons/fa";
+import SubmitButton from "../../components/auth/SubmitButton";
 
 const Login = () => {
   const [formValues, setFormValues] = useState({
@@ -42,16 +43,12 @@ const Login = () => {
               <p className="w-full">forgot password?</p>
             </div>
 
-            <div className="submit-btn w-90 mx-auto sm:w-[70%] md:w-[75%] h-[45px] overflow-hidden bg-orange mt-8 rounded-md">
-              <button className="w-full h-full uppercase text-white ">
-                log in
-              </button>
-            </div>
+            <SubmitButton title="log in" />
 
             <div className="mt-3 w-full">
               <p className="font-bold w-full text-center text-sm">
                 Don&apos;t have an account?{" "}
-                <Link to="#" className="text-orange">
+                <Link to="/startup-plan/register" className="text-orange">
                   Sign up.
                 </Link>
               </p>

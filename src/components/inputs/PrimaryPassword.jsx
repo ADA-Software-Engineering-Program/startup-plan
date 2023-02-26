@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
 
-const PrimaryPassword = ({ mb = "mb-2", name, value, onChangeInput }) => {
+const PrimaryPassword = ({
+  mb = "mb-2",
+  name,
+  value,
+  onChangeInput,
+  placeholder = "********",
+}) => {
   const [hide, setHide] = useState(true);
 
   const handleHide = () => {
@@ -14,7 +20,7 @@ const PrimaryPassword = ({ mb = "mb-2", name, value, onChangeInput }) => {
       <div className=" w-full h-full rounded-md overflow-hidden">
         <input
           type={hide ? "password" : "text"}
-          placeholder="********"
+          placeholder={placeholder}
           onChange={onChangeInput}
           value={value}
           className="w-full h-full border-0 bg-aboutBg px-3 py-1 focus-visible:border-0 focus-visible:outline-none"

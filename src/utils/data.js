@@ -25,6 +25,6 @@ export const navData = [
   {
     id: 5,
     navTitle: "sign up",
-    url: "/register",
+    url: "/startup-plan/register",
   },
 ];
