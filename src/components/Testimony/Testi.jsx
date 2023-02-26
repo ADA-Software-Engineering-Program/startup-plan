@@ -1,6 +1,6 @@
 import React from "react";
 import "./Testi.css";
-import ming from "../../assets/ming.png";
+
 import pic1 from "../../assets/pic1.png";
 import pic2 from "../../assets/pic2.png";
 import pic3 from "../../assets/pic3.png";
