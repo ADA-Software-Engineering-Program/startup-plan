@@ -23,6 +23,7 @@ const PrimaryPassword = ({
           placeholder={placeholder}
           onChange={onChangeInput}
           value={value}
+          name={name}
           className="w-full h-full border-0 bg-aboutBg px-3 py-1 focus-visible:border-0 focus-visible:outline-none"
         />
       </div>
