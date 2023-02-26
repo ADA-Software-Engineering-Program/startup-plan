@@ -3,9 +3,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import ming from "../../assets/ming.png";
 
-// import required modules
-import { Autoplay, Pagination } from "swiper";
-
 const Carousel = ({ pic, text, name, title }) => {
   return (
     <section className="bg-white w-full pb-3 pt-4 mb-5 carousel-card">
