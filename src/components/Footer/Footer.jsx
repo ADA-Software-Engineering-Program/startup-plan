@@ -12,9 +12,9 @@ const Footer = () => {
 
 
            <div className="fwrap">
-            <div className="footerContent">Ready To </div>
+            <div className="footerContent">Ready To <b className="bold">StartUp?</b></div>
             
-              <div className="own">StartUp?</div>
+              
             
             
           </div>
