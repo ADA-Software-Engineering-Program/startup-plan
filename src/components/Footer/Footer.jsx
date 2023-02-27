@@ -23,7 +23,7 @@ const Footer = () => {
           
          <div className="w-[200px] mx-auto h-[45px] bg-orange mt-[30px] rounded-md signUp">
           <Link
-            to="/"
+            to="/startup-plan/register"
             className="w-full h-full flex justify-center items-center text-base text-white capitalize font-bold"
           >
             Sign Up
