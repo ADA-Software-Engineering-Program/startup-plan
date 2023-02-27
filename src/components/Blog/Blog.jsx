@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <section className="blogContainer w-90 mt-6"> 
-    <div className="w-90 mx-auto py-3" >
+    <section className="blogContainer  mt-6"> 
+    <div className="w-90 mx-auto" >
 
       <h1 className="blogHead mt-6">Blogs and News</h1>
       <div className="bWrap">
@@ -16,7 +16,7 @@ const Blog = () => {
         <img src={people} alt="people" />
       </div>
       <div className="containerC">
-        <h3 className="contentHead">
+        <h3 className="contentHead mt-5">
           Fulfil your dreams of becoming a business owner
         </h3>
         <h3 className="blogcontent1">
@@ -29,7 +29,7 @@ const Blog = () => {
       </div>
       <div className="blogWrap2 w-100">
       <div className="container2">
-        <h3 className="yet mt-0">Yet to Register your Business?</h3>
+        <h3 className="yet mt-5">Yet to Register your Business?</h3>
         <h3 className="blogcontent1">
          1. You can open a corporate account with your registered business
              certificate. When you register through us, you get a Zenith Bank

@@ -12,30 +12,23 @@
 
 .footerContent {
 
-  
+  text-align: center;
   margin-left: 0px;
-  
+  justify-content: center;
 
   font-family: "Crimson Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 53px;
-  margin-left: 20%;
+  margin-left: 10%;
   color: #1e1e1e;
 }
-.own {
-  
-  
-  border: 2px solid #ff4500; ;
-  font-family: "Crimson Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 53px;
+.bold{
+  color: #ff4500;
+}
 
-  color: #1e1e1e;
-}
+  
 .owner {
   box-sizing: border-box;
 
@@ -55,7 +48,7 @@
   font-size: 18px;
   line-height: 27px;
 
-  margin-left: 40%;
+  text-align: center;
   color: #000000;
 }
 
@@ -70,10 +63,6 @@
   line-height: 25px;
 
   color: #ffffff;
-}
-.fa{
-  margin-right: 5px;
-
 }
 @media only screen and (max-width: 700px) {
    /* .footerContent{
