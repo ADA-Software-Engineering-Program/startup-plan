@@ -3,6 +3,7 @@ import ServicesNav from "../components/ServicesNav/ServicesNav";
 import Header from "../components/Header/Header"
 import ServicesCard from "../components/ServicesCard/ServicesCard";
 import WhyServices from "../components/WhyServices/WhyServices";
+import TemplateLink from "../components/TemplateLink/TemplateLink";
 
 
 
@@ -22,6 +23,7 @@ const OurServices = () => {
             </header>
             <ServicesCard />
             <WhyServices />
+            <TemplateLink />
 
             </section>
             </div>
