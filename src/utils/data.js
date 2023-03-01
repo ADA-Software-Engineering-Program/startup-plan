@@ -8,7 +8,7 @@ export const navData = [
   {
     id: 2,
     navTitle: "our services",
-    url: "/services",
+    url: "/OurServices",
   },
   {
     id: 3,
