@@ -42,13 +42,15 @@ const Login = () => {
             <div className="w-90 mx-auto capitalize text-right text-orange text-sm sm:w-[70%] md:w-[75%]">
               <p className="w-full">forgot password?</p>
             </div>
-
-            <SubmitButton title="log in" />
+            <Link to="/startup-plan/OurServices" className="text-orange">
+            <SubmitButton title="log in" /> 
+                </Link>
+             
 
             <div className="mt-3 w-full">
               <p className="font-bold w-full text-center text-sm">
                 Don&apos;t have an account?{" "}
-                <Link to="/startup-plan/register" className="text-orange">
+                <Link to="/startup-plan/Register" className="text-orange">
                   Sign up.
                 </Link>
               </p>

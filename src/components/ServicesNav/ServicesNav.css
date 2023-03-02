@@ -1,0 +1,94 @@
+ 
+ .Nav{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    padding-left: 4rem; 
+ }
+.logo img{
+width: 40%;
+
+}
+.Nav_link{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+    
+}
+
+a:link{
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgba(255, 69, 0, 0.2);
+}
+a:active{
+    background-color:rgba(255, 69, 0, 0.2) ;
+    color: #fff;
+}
+.Nav_link_container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 2rem;
+    cursor: pointer;
+    padding-top:1rem ;
+
+    }
+
+.Nav_link_container, p{
+    font-size: 16px;
+    text-align: end;
+    padding-right: 2rem;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400px;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+.Nav-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.Nav-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background-color: red;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    
+}
+.Nav-menu_container p{
+    margin: 1rem 0;
+}
+.Nav-menu svg{
+    cursor: pointer;
+}
+@media screen and (max-width: 1050px) {
+    .Nav_link_container{
+        display: none;
+    }
+    .Nav-menu{
+        display: flex; }
+    
+    .Nav-menu_container{
+        display: flex;
+    }
+}
