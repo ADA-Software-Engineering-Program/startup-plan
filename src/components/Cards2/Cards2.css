@@ -1,0 +1,44 @@
+.sc{
+    width: 18rem;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+
+.CardsH{
+    text-align: center;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 44px;
+margin-bottom: 3%;
+
+color: #1E1E1E;
+
+}
+.plus{
+    position: absolute;
+    font-size: 60px;
+    top:20%;
+    left:40%;
+}
+.CardsTitle{
+    text-align: center;
+    color: #1E1E1E;
+    font-family: 'Crimson Pro';
+    font-style: normal; 
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:850px)  {
+    .wrapper{
+        flex-direction: column;
+        align-items: center;}
+    }

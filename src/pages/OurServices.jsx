@@ -2,8 +2,17 @@ import React from "react";
 import ServicesNav from "../components/ServicesNav/ServicesNav";
 import Header from "../components/Header/Header"
 import ServicesCard from "../components/ServicesCard/ServicesCard";
-import WhyServices from "../components/WhyServices/WhyServices";
+
 import TemplateLink from "../components/TemplateLink/TemplateLink";
+import Cards2 from "../components/Cards2/Cards2";
+import Bizplan from "../components/Bizplan/Bizplan";
+import Bizpresent from "../components/Bizpresent/Bizpresent";
+import Pricing from "../components/Pricing/Pricing";
+import Legal from "../components/Legal/Legal";
+import Attorney from "../components/Attorney/Attorney";
+
+
+
 
 
 
@@ -22,8 +31,14 @@ const OurServices = () => {
             <Header />
             </header>
             <ServicesCard />
-            <WhyServices />
+            
             <TemplateLink />
+            <Cards2 />
+            <Bizplan />
+            <Bizpresent />
+            <Pricing />
+            <Legal />
+            <Attorney />
 
             </section>
             </div>

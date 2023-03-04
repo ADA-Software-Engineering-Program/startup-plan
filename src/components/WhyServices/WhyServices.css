@@ -42,13 +42,17 @@ color: #1E1E1E;
     border-radius: 50%;
     width: 25px;
     height: 25px;
+    
 
 }
 .sLine{
+    
     border-bottom: 1px solid #1E1E1E;
     width:25%;
+    
 }
 .lineWrap{
+    position: relative;
     display: flex;
     justify-content: center;
     padding-bottom: 10%;

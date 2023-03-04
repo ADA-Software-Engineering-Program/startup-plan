@@ -1,0 +1,51 @@
+.sc{
+    width: 18rem;
+}
+.wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+
+.CardsH{
+    text-align: center;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 44px;
+margin-bottom: 3%;
+margin-top: 5%;
+
+color: #1E1E1E;
+
+}
+.CardsTitle{
+    text-align: center;
+    color: #1E1E1E;
+    font-family: 'Crimson Pro';
+    font-style: normal; 
+    font-size: 18px;
+}
+.lastwrap{
+display: flex;
+}
+/* .eclip1{
+width:40%;
+height: 40%;
+border-radius: 50%;
+border:1px solid black
+}
+.eclip2{
+
+} */
+
+
+@media screen and (max-width:850px)  {
+    .wrapper{
+        flex-direction: column;
+        align-items: center;}
+    }

@@ -41,6 +41,6 @@ a:hover{
  @media screen and (max-width:850px)  {
 
     .TLinks{
-        flex-wrap: wrap;
+        flex-wrap: wrap1;
     }
 }

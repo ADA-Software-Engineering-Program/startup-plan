@@ -1,0 +1,80 @@
+.Bizheading{
+    margin-top: 5%;
+}
+.Lwrap{
+    display: flex;
+    justify-content: space-between;
+    margin-left:5% ;
+    margin-right: 5%;
+}
+.lcc{
+    width: 50%;
+    margin-left: 5%;
+}
+.how{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+    color: #1E1E1E;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+margin-top: 20px;
+}
+.circle{
+    border: 2px solid #FF4500; 
+    background: #FF4500;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    
+
+}
+.sLine{
+    
+    border-bottom: 1px solid #1E1E1E;
+    width:45%;
+    
+}
+.lineWrap{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    position: relative;
+}
+.bodyl{
+    
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+margin-bottom: 3%;
+
+color: #1E1E1E;
+
+}
+@media screen and (max-width:850px)  {
+    .Lwrap{
+        flex-direction: column;
+        align-items: center;}
+        .small{
+            flex-direction: column;
+            align-items: center;
+        }
+        .bodyL{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
