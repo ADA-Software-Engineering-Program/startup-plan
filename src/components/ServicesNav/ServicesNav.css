@@ -1,11 +1,24 @@
  
+
+
+.Nav_link{
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400px;
+    color: #1E1E1E !important ;
+    cursor: pointer;
+}
+
+
+
+
  .Nav{
     
     
     display: flex;
     justify-content: space-between;
-    /* align-content: center; */
-    padding-left: 4rem; 
+    align-content: center; 
+     padding-left: 4rem; 
  }
 .logo img{
 width: 40%;
@@ -22,15 +35,17 @@ width: 40%;
 }
 
 a:link{
-    text-decoration: none;
+    text-decoration: none !important;
 
 }
 a:hover{
-    color: rgba(255, 69, 0, 0.2);
+    color: rgba(255, 69, 0, 0.2) !important;
+    border: none !important;
 }
 a:active{
     background-color:rgba(255, 69, 0, 0.2) ;
     color: #fff;
+
 }
 .Nav_link_container{
     flex: 1;
@@ -91,4 +106,4 @@ a:active{
     .Nav-menu_container{
         display: flex;
     }
-}
+} 

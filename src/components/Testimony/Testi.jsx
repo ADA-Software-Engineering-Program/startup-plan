@@ -33,7 +33,7 @@ const Testi = () => {
           />
           <Carousel
             text="Startup plan is really a genuine company.
-Their legal services really helped boost my business. would recommend to business owners and startups"
+                  Their legal services really helped boost my business. would recommend to business owners and startups"
             pic={pic3}
             title="product designer"
             name="chiamaka"

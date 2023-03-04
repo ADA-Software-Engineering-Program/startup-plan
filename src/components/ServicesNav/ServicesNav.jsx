@@ -26,16 +26,16 @@ const ServicesNav = () => {
 <img src={Logo} alt="logo"/>
 </div>
 
-{/* <div className="Nav_link_hidden">
+ {/* <div className="Nav_link_hidden">
 <p><a href="/startup-plan">Home</a></p>
       <p><a  classname="active" href="/OurServices">Our Services</a></p>
       <p><a href="/contact-us">Contact</a></p>
-</div> */}
+</div>  */}
 
 <div className="Nav_link_container">
-<p><a href="/startup-plan">Home</a></p>
-      <p><a  classname="active" href="/OurServices">Our Services</a></p>
-      <p><a href="/contact-us">Contact</a></p>
+<p className="Nlink"><a href="/startup-plan">Home</a></p>
+      <p className="Nlink"><a  classname="active" href="/OurServices">Our Services</a></p>
+      <p className="Nlink"><a href="/contact-us">Contact</a></p>
 </div>
     <div className="Nav-menu">
 {toggleMenu
@@ -45,9 +45,9 @@ const ServicesNav = () => {
 {toggleMenu &&(
   <div className="Nav-menu_container scale-up-center">
 <div className="Nav-menu_container-links">
-<p><a href="/#">Home</a></p>
-      <p><a href="/#">Our Services</a></p>
-      <p><a href="/#">Contact</a></p>
+<p><a href="/startup-plan">Home</a></p>
+      <p><a href="/OurServices">Our Services</a></p>
+      <p><a href="/contact-us">Contact</a></p>
       
 </div>
 

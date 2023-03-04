@@ -1,0 +1,50 @@
+.bizwrap{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.under{
+    text-align: center;
+    color: #1E1E1E;
+    font-family: 'Crimson Pro';
+    font-style: normal; 
+    font-size: 16px;
+}
+.Bizheading{
+    text-align: center;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 44px;
+margin-bottom: 3%;
+
+color: #1E1E1E;
+}
+.btnn{
+    position: absolute;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 700;
+color: #FFFFFF;
+background-color: orangered;
+border-radius: 3px;
+
+}
+.card-body{
+    position: absolute;
+    bottom: 28%;
+    right:4%;
+}
+.bc{
+    position: relative;
+    width: 18rem;
+}
+
+@media screen and (max-width:850px)  {
+    .bizwrap{
+        flex-direction: column;
+        align-items: center;}
+    }
