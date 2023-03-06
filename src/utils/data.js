@@ -27,4 +27,5 @@ export const navData = [
     navTitle: "sign up",
     url: "/startup-plan/register",
   },
+  
 ];
