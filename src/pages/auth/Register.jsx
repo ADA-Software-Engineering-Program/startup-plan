@@ -99,9 +99,10 @@ const Register = () => {
               />
               <label htmlFor="terms"></label>
             </div>
-
+            <Link to="/startup-plan/OurServices" className="text-orange">
+                  
             <SubmitButton title="create account" />
-
+</Link>
             <div className="mt-3 w-full">
               <p className="font-bold w-full text-center text-sm">
                 Already have an account?{" "}

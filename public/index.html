@@ -13,7 +13,21 @@
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    --><script type="application/javascript">
+      window.tiledeskSettings= 
+      {
+          projectid: "5f47e834c85eca0012c97888"
+      };
+      (function(d, s, id) { 
+          var w=window; var d=document; var i=function(){i.c(arguments);};
+          i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;                    
+          var js, fjs=d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js=d.createElement(s); 
+          js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v5/launch.js";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document,'script','tiledesk-jssdk'));
+  </script>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
