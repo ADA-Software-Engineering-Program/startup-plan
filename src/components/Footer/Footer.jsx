@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import { FaQuestionCircle } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -29,9 +29,7 @@ const Footer = () => {
             Sign Up
           </Link>
           </div>
-          <div className="w-90 mx-auto sm:w-[70%] md:w-[75%] text-[28px] text-orange flex justify-end fa">
-              <FaQuestionCircle />
-            </div>
+          
       </section>
       
     </div>

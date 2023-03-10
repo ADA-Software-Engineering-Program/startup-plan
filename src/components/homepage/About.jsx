@@ -12,10 +12,15 @@ const About = () => {
         <div className="w-full about-us mb-5">
           <h3 className="capitalize text-center">about us</h3>
           <p className="w-full text-center sm:w-[500px] mx-auto my-3 2md:w-full">
-            Our goal is to help Entrepreneur to start up their business. we
-            equally register business, companies and NGO accorrding to CAC
-            requirement by accredited persons. Also, we provide legal personals
-            that offer legal services to business startups.
+            we are a team of professionals dedicated to helping entrepreneurs
+            and small business owners turn their dreams into reality. We aim to
+            provide you with the tools and resources you need to start or scale
+            your business with confidence. at startupplan, we believe that every
+            entrepreneur deserves the chance to succeed, which is why we strive
+            to make our services accessible, affordable, and user-friendly.
+            Whether you're just starting out or looking to take your business to
+            the next level, we're here to help. let us be your partner on your
+            journey to success.
           </p>
         </div>
 
@@ -32,16 +37,14 @@ const About = () => {
             <h3 className="capitalize text-center ">our mission</h3>
             <p className="sm:w-[500px] mx-auto my-3 w-full text-center 2md:w-full">
               Our aim ensure that Business owners are faced with less
-              challenges. Startups are companies or ventures that are focused or
-              a single product or service that the founders want to bring to
-              market. These companies typically don't have a fully developed
-              business model and, more crucially, lack adequate capital to move
-              onto the next phase of business. Most of these companies are
-              initially funded by their founders. Many startups turn to others
-              for more funding, including family, friends, and venture
-              capitalists. Silicon Valley is known for its strong venture
-              capitalist community and is a popular destination for startups,
-              but is also widely considered the most demanding arena.
+              challenges. We understand that starting a business can be
+              overwhelming, which is why we offer easy-to-use business plan
+              templates and hassle-free business registration services. Our
+              templates are designed to help you create a comprehensive and
+              effective business plan, tailored to your unique needs and goals.
+              And our registration services make it easy for you to navigate the
+              complex process of registering your business, ensuring that you
+              meet all legal requirements and are ready to launch
             </p>
           </div>
         </div>

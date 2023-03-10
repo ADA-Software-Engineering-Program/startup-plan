@@ -29,7 +29,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="w-full bg-lightOrange 2md:bg-transparent" ref={navref}>
+    <nav className="w-full bg-rgba(255, 69, 0, 0.9); 2md:bg-transparent" ref={navref}>
       <div className="w-90 mx-auto flex items-center justify-between py-3">
         <div className="w-full-custom flex justify-between items-center ">
           <figure
