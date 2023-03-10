@@ -13,9 +13,9 @@
 //     email: "",
 //     password: "",
 //     confirm_password: "",
-    
+
 //   });
-  
+
 //   const [checked, setChecked] = useState(false);
 //   const handleCheckboxChange = () => {
 //     setChecked(!checked);
@@ -28,7 +28,6 @@
 //     let name = e.target.name;
 //     setFormValues({ ...formValues, [name]: e.target.value });
 //   };
-  
 
 //   return (
 //     <section className="w-full ">
@@ -104,7 +103,7 @@
 //               <label htmlFor="terms"></label>
 //             </div>
 //             <Link to="/startup-plan/OurServices" className="text-orange">
-                  
+
 //             <SubmitButton title="create account" />
 // </Link>
 //             <div className="mt-3 w-full">
@@ -135,7 +134,7 @@ import { FaQuestionCircle } from "react-icons/fa";
 import PrimaryInput from "../../components/inputs/PrimaryInput";
 import PrimaryPassword from "../../components/inputs/PrimaryPassword";
 import SubmitButton from "../../components/auth/SubmitButton";
-import axios from 'axios';
+import axios from "axios";
 
 const Register = () => {
   const [formValues, setFormValues] = useState({
@@ -154,7 +153,10 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://startupplanapiservice.onrender.com/register', formValues);
+      const response = await axios.post(
+        "http://startupplanapiservice.onrender.com/register",
+        formValues
+      );
 
       console.log(response.data);
       // Display success message to user
@@ -226,43 +228,43 @@ const Register = () => {
                 onChangeInput={handleChange}
                 placeholder="CONFIRM PASSWORD"
                 mb="mb-6"
-                            />
-                            </div>
-                
-                           <div className="w-90 mx-auto capitalize text-sm sm:w-[70%] md:w-[75%] my-8 flex justify-center">
-                             <p className="font-bold capitalize">
-                                i agree to terms of service.
-                              </p>
-                             &nbsp;&nbsp;
-                              <input
-                                type="checkbox"
-                               id="terms"
-                               checked={checked}
-                                onChange={handleCheckboxChange}
-                              />
-                              <label htmlFor="terms"></label>
-                            </div>
-                            {/* <Link to="/startup-plan/OurServices" className="text-orange"> */}
-                                  
-                            <SubmitButton title="create account" />
-                 {/* </Link> */}
-                            <div className="mt-3 w-full">
-                             <p className="font-bold w-full text-center text-sm">
-                                Already have an account?{" "}
-                                <Link to="/startup-plan/login" className="text-orange">
-                                  Log in.
-                                </Link>
-                              </p>
-                            </div>
-                
-                           <div className="mt-8 mb-5 w-90 mx-auto sm:w-[70%] md:w-[75%] text-[28px] text-orange flex justify-end">
-                             <FaQuestionCircle />
-                           </div>
-                          </form>
-                        </div>
-                      </div>
-                   </section>
-                  );
-                };
-                
-                export default Register;
+              />
+            </div>
+
+            <div className="w-90 mx-auto capitalize text-sm sm:w-[70%] md:w-[75%] my-8 flex justify-center">
+              <p className="font-bold capitalize">
+                i agree to terms of service.
+              </p>
+              &nbsp;&nbsp;
+              <input
+                type="checkbox"
+                id="terms"
+                checked={checked}
+                onChange={handleCheckboxChange}
+              />
+              <label htmlFor="terms"></label>
+            </div>
+             <Link to="/startup-plan/OurServices" className="text-orange"> 
+
+            <SubmitButton title="create account" />
+            </Link> 
+            <div className="mt-3 w-full">
+              <p className="font-bold w-full text-center text-sm">
+                Already have an account?{" "}
+                <Link to="/startup-plan/login" className="text-orange">
+                  Log in.
+                </Link>
+              </p>
+            </div>
+
+            <div className="mt-8 mb-5 w-90 mx-auto sm:w-[70%] md:w-[75%] text-[28px] text-orange flex justify-end">
+              <FaQuestionCircle />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Register;
