@@ -7,6 +7,7 @@ import Why from "../components/Why/Why";
 import Blog from "../components/Blog/Blog";
 import Testi from "../components/Testimony/Testi";
 import Footer from "../components/Footer/Footer";
+import Footer2 from "../components/Footer2/Footer2";
 
 const Home = () => {
   return (
@@ -22,7 +23,8 @@ const Home = () => {
         <Why />
         <Blog />
         <Testi />
-        <Footer />    
+        <Footer />  
+        <Footer2 />  
       </section>
     </section>
   );

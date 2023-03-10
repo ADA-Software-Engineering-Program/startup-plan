@@ -7,17 +7,20 @@
     margin-left:5% ;
     margin-right: 5%;
 }
+.lc{
+    width: 90%;
+}
 .lcc{
-    width: 50%;
+    width: 90%;
     margin-left: 5%;
 }
 .how{
     margin-top: 20px;
     text-align: center;
     font-family: 'Crimson Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
 }
 .small{
     display: flex;
@@ -53,6 +56,9 @@ margin-top: 20px;
     padding-bottom: 10%;
     position: relative;
 }
+.bodyL{
+    width: 100%;
+}
 .bodyl{
     
     font-family: 'Crimson Pro';
@@ -61,7 +67,6 @@ font-weight: 600;
 font-size: 20px;
 line-height: 20px;
 margin-bottom: 3%;
-
 color: #1E1E1E;
 
 }
