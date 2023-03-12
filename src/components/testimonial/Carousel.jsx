@@ -1,30 +1,60 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
-import ming from "../../assets/ming.png";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Navigation } from "swiper";
+import pic1 from "../../assets/pic1.png";
+import pic2 from "../../assets/pic2.png";
+import pic3 from "../../assets/pic3.png";
+import CarouselContent from "./CarouselContent";
 
 const Carousel = ({ pic, text, name, title }) => {
   return (
-    <section className="bg-white w-full pb-3 pt-4 mb-5 carousel-card">
-      <div className=" flex items-center">
-        <figure className="m-0 p-0 h-[80px] w-[100px]">
-          <img src={ming} alt="ming" className="w-full h-full" />
-        </figure>
-
-        <div className="w-[100%] py-2 pl-5 pr-2 border-aboutBg border-l-2">
-          <p className="text-sm w-full leading-[1.5] font-semibold">{text}</p>
-
-          <figure className="m-0 p-0 mt-3 w-[80px] h-[80px] rounded-[50%] overflow-hidden">
-            <img src={pic} alt="pic1" className="w-full h-full" />
-          </figure>
-
-          <div className="mt-3">
-            <h3 className="text text-aboutBg font-bold">{name}</h3>
-            <p className="mt-1 capitalize font-bold">{title}</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Swiper
+      slidesPerView={1}
+      navigation={true}
+      breakpoints={{
+        700: {
+          slidesPerView: 2,
+        },
+      }}
+      spaceBetween={30}
+      modules={[Autoplay, Navigation]}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      className="mySwiper"
+    >
+      <SwiperSlide>
+        <CarouselContent
+          text="One the best business platform i have ever seen, I was  able to find my feet through this website. i highly recommend!"
+          pic={pic1}
+          title="product designer"
+          name="mary"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <CarouselContent
+          text="Registering my business through this platform was so swift. Customer service is top notch. I love it. "
+          pic={pic2}
+          title="product designer"
+          name="sylvia"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <CarouselContent
+          text="Startup plan is really a genuine company.
+                  Their legal services really helped boost my business. I recommend"
+          pic={pic3}
+          title="product designer"
+          name="chiamaka"
+        />
+      </SwiperSlide>
+    </Swiper>
   );
 };
 

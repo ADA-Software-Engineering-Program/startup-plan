@@ -63,6 +63,10 @@ p {
   background-size: 150px 40px;
 }
 
+.text-center-custom {
+  text-align: center;
+}
+
 .about-us h3 {
   font-size: 24px;
   line-height: 1.5;
@@ -108,9 +112,21 @@ p {
 }
 
 .carousel-card {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  @apply w-full mx-auto;
+  /* height: 270px; */
+}
+
+.swiper {
+  @apply w-full;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff4500 !important;
+}
+
+.text {
+  font-size: 15x;
 }
 
 @media (max-width: 991px) {
@@ -140,6 +156,10 @@ p {
   .active-nav {
     @apply flex;
   }
+
+  .navOnScroll .hamburger {
+    @apply text-white;
+  }
 }
 
 @media (max-width: 479px) {
@@ -159,10 +179,6 @@ p {
 @media (min-width: 600px) {
   .hero-img {
     @apply w-[100%] h-[400px] mx-auto;
-  }
-
-  .carousel-card {
-    width: 350px;
   }
 }
 
@@ -195,8 +211,8 @@ p {
     font-size: 28px;
   }
 
-  .carousel-card {
-    width: 400px;
+  .text-center-custom {
+    text-align: left;
   }
 }
 
@@ -278,7 +294,8 @@ p {
     overflow: hidden;
   }
 
-  .carousel-card {
-    flex-shrink: 0;
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
   }
 }

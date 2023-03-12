@@ -3,7 +3,7 @@ import React from "react";
 const Cardcontent = ({ figure, text, numbers }) => {
   return (
     <div
-      className="py-5 px-4 cards"
+      className="py-4 px-4 cards"
       style={{ backgroundColor: "rgba(255, 69, 0, 0.2)" }}
     >
       <figure className="w-[70px] h-[70px] mx-auto ">
@@ -11,11 +11,11 @@ const Cardcontent = ({ figure, text, numbers }) => {
       </figure>
 
       <div className="w-90 mx-auto">
-        <p className="capitalize my-5 text-center font-bold text-sm md:text-base">
+        <p className="capitalize my-1 text-center font-bold text-sm md:text-base p-0">
           {text}
         </p>
 
-        <p className="capitalize my-5 text-center text-white font-bold text-lg md:text-2xl">
+        <p className="capitalize my-1 text-center text-white font-bold text-lg md:text-2xl p-0">
           {numbers}
         </p>
       </div>

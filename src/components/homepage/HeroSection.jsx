@@ -14,14 +14,19 @@ const HeroSection = () => {
           />
         </figure>
 
-        <div className="hero-text w-90 mt-[12px] sm:mt-7 md:mt-0">
-          <h1 className="capitalize text-left md:text-left text-3xl md:text-[30px] 2md:text-[48px] normal">
-          Start your business on the right foot 
-          </h1><br/>
-          <p className="capitalize text-left md:text-left text-3xl md:text-[12px] 2md:text-[18px] normal font-bold">
-            Make use of our ready made templates<br/> Get apt legal and financial guidance </p>
+        <div className="hero-text w-90 mx-auto md:mx-0 mt-[12px] sm:mt-7 md:mt-0 flex flex-col items-center md:items-start">
+          <h1 className="capitalize text-center-custom text-3xl md:text-[30px] 2md:text-[48px] normal">
+            Start your business on the right foot
+          </h1>
+          <br />
+          <p className="capitalize text-center-custom text-3xl md:text-[12px] 2md:text-[18px] normal font-bold ">
+            Make use of our ready made templates
+          </p>
+          <p className="capitalize text-center-custom text-3xl md:text-[12px] 2md:text-[18px] normal font-bold ">
+            Get apt legal and financial guidance{" "}
+          </p>
 
-          <div className="btn-container w-90 mx-auto  md:mx-0 border-2 border-orange rounded-md h-[45px] mt-5 md:mt-8 md:w-300px hover:bg-orange hover:shadow-[3px_3px_6px_rgba(0,0,0,0.5)]">
+          <div className="btn-container w-[90%] md:mx-0 border-2 border-orange rounded-md h-[45px] mt-5 md:mt-8 md:w-300px hover:bg-orange hover:shadow-[3px_3px_6px_rgba(0,0,0,0.5)]">
             <Link
               to="/"
               className="w-full h-full flex justify-center items-center text-base text-orange capitalize font-bold"
