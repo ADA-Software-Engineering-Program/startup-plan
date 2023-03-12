@@ -1,31 +1,30 @@
-.Footer2Container{
-background: rgba(255, 69, 0, 0.9);
-display: flex;
-margin-top: 10%;
-
+.Footer2Container {
+  background: rgba(255, 69, 0, 0.9);
+  display: flex;
+  margin-top: 40px;
 }
 
-.FooterLogo{
-    margin-top: 5%;
-    margin-left: 5%;
-    color: #fff;
+.FooterLogo {
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #fff;
 }
 
-.wrapfooter{
-margin-top: 3%;
-margin-left: 20%;
-margin-bottom: 5%;
+.wrapfooter {
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-bottom: 5%;
 }
-.explore{
-    color: #fff;
+.explore {
+  color: #fff;
 }
 
-.footlink{
-    color: #1E1E1E;
-    font-family: 'Crimson Pro';
-    font-style: normal;
-    font-weight: 400px;
+.footlink {
+  color: #1e1e1e;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400px;
 }
-a:hover .footlink{
-    color: #fff;
+a:hover .footlink {
+  color: #fff;
 }
