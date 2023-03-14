@@ -56,7 +56,7 @@ a:active{
 }
 
 .Nav_link_container,p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: end;
     padding-right: 2rem;
     font-family: 'Crimson Pro';
@@ -98,6 +98,15 @@ a:active{
 .Nav_link_container a.active {
     color: red;
   }
+ .Nlink a{
+color: #1E1E1E;
+font-family:'Crimson pro';
+font-weight: 400;
+font-size: 18px;
+ } 
+ .logo{
+    align-content: top; 
+ }
   
 @media screen and (max-width: 768px) {
     .Nav_link_container{
@@ -115,5 +124,6 @@ a:active{
     .Nav-menu_container-links{
         flex-direction: column;
     }
+ 
     
 }

@@ -114,7 +114,7 @@ const ServicesNav = () => {
           <NavLink exact to="/OurServices">Our Services</NavLink>
         </p>
         <p className="Nlink">
-          <NavLink to ="/contact-us">Contact</NavLink>
+          <NavLink to ="/contact-us">Contact Us</NavLink>
         </p>
       </div>
 
@@ -137,7 +137,7 @@ const ServicesNav = () => {
             <div className="Nav-menu_container-links">
               <p><NavLink exact to="/">Home</NavLink></p>
               <p><NavLink to="/" activeClassName="active">Our Services</NavLink></p>
-              <p><NavLink to="/contact-us">Contact</NavLink></p>
+              <p><NavLink to="/contact-us">Contact Us</NavLink></p>
             </div>
           </div>
         )}
