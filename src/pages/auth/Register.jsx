@@ -154,7 +154,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://startupplanapiservice.onrender.com/register",
+        "http://startup-plan-apiservice.onrender.com/auth/signup",
         formValues
       );
 
@@ -244,7 +244,7 @@ const Register = () => {
               />
               <label htmlFor="terms"></label>
             </div>
-             <Link to="/startup-plan/OurServices" className="text-orange"> 
+             <Link to="/OurServices" className="text-orange"> 
 
             <SubmitButton title="create account" />
             </Link> 

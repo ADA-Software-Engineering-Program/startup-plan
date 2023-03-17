@@ -44,7 +44,7 @@ const Login = () => {
             <div className="w-90 mx-auto capitalize text-right text-orange text-sm sm:w-[70%] md:w-[75%]">
               <p className="w-full">forgot password?</p>
             </div>
-            <Link to="/startup-plan/OurServices" className="text-orange">
+            <Link to="/OurServices" className="text-orange">
             <SubmitButton title="log in" /> 
                 </Link>
              

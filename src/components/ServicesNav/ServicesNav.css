@@ -20,7 +20,7 @@
 }
 
 .logo img{
-    width: 40%;
+    width: 50%;
 }
 
 .Nav_link{
@@ -115,15 +115,22 @@ font-size: 18px;
     }
     .Nav-menu{
         display: flex;
+        margin-top: 5%;
+        
     }
-    
-    /* .Nav-menu_container{
-        display: flex;
-        flex-direction: column 
-    } */
     .Nav-menu_container-links{
         flex-direction: column;
     }
- 
+    .logo img{
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+ .Nav{
+    padding-left: 2rem;
+
+ }
+ .Nav_link {
+    font-size: 1rem;
+  }
     
 }
