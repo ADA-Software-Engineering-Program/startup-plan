@@ -28,7 +28,7 @@ const HeroSection = () => {
 
           <div className="btn-container w-[90%] md:mx-0 border-2 border-orange rounded-md h-[45px] mt-5 md:mt-8 md:w-300px hover:bg-orange hover:shadow-[3px_3px_6px_rgba(0,0,0,0.5)]">
             <Link
-              to="/"
+              to="/startup-plan/register"
               className="w-full h-full flex justify-center items-center text-base text-orange capitalize font-bold"
             >
               get started
