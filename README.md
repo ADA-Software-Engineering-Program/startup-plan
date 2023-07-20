@@ -31,6 +31,10 @@ The product will help Startups:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# App link
+Kindly click the link to view 
+https://ada-software-engineering-program.github.io/startup-plan/
+
 ## install
 
 - Create the folder in which your project would be located in.
