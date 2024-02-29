@@ -1,0 +1,46 @@
+.TempContainer{
+    margin-top: 5%
+}
+.THeading{
+margin-top: 20px;
+text-align: center ;
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 71px;
+
+color: #1E1E1E;
+}
+
+
+.TLinks{
+display: flex;
+margin-left: 3%;
+margin-right: 3%;
+padding-bottom: 5%;
+}
+.linkT{
+ background-color:rgba(255, 69, 0, 0.2);
+ color: #1E1E1E;
+ font-family: 'Crimson Pro';
+font-style: normal;
+}
+
+a:hover{
+    text-decoration:underline;
+    border: 1px solid rgb(5, 5, 97);
+}
+
+
+@media screen and (max-width:700px)  {
+ .TLinks{
+    flex-direction: column;
+ }
+}
+ @media screen and (max-width:850px)  {
+
+    .TLinks{
+        flex-wrap: wrap1;
+    }
+}

@@ -1,0 +1,136 @@
+.Nav_link{
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400px;
+    color: #1E1E1E !important ;
+    cursor: pointer;
+}
+
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center; 
+    padding-left: 4rem; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    /* background-color: #fff; */
+}
+
+.logo img{
+    width: 50%;
+}
+
+.Nav_link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+a:link{
+    text-decoration: none !important;
+    /* color: #1E1E1E !important ; */
+}
+
+a:hover{
+    color: rgba(255, 69, 0, 0.2) !important;
+    border: none !important;
+}
+
+a:active{
+    background-color:rgba(255, 69, 0, 0.2) ;
+    color: #fff;
+}
+
+.Nav_link_container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 2rem;
+    cursor: pointer;
+    padding-top:1rem ;
+}
+
+.Nav_link_container,p{
+    font-size: 18px;
+    text-align: end;
+    padding-right: 2rem;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400px;
+    /* color: #1E1E1E; */
+    cursor: pointer;
+}
+
+.Nav-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.Nav-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: left;
+    background-color: #fff;
+    padding: 2rem;
+    /* position: absolute;
+    top: 40px;
+    right: 0px; */
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+}
+
+.Nav-menu_container p{
+    margin: 1rem 0;
+}
+
+.Nav-menu svg{
+    cursor: pointer;
+}
+.Nav_link_container a.active {
+    color: red;
+  }
+ .Nlink a{
+color: #1E1E1E;
+font-family:'Crimson pro';
+font-weight: 400;
+font-size: 18px;
+ } 
+ .logo{
+    align-content: top; 
+ }
+  
+@media screen and (max-width: 768px) {
+    .Nav_link_container{
+        display: none;
+        flex-direction: column;
+    }
+    .Nav-menu{
+        display: flex;
+        margin-top: 5%;
+        
+    }
+    .Nav-menu_container-links{
+        flex-direction: column;
+    }
+    .logo img{
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+ .Nav{
+    padding-left: 2rem;
+
+ }
+ .Nav_link {
+    font-size: 1rem;
+  }
+    
+}

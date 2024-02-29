@@ -8,7 +8,7 @@ The product will help Startups:
 2. Access customer survey samples.
 3. Register businesses with appropriate institutions.
 4. Procure affordable legal and financial consultation.
-
+// "start": "react-scripts --openssl-legacy-provider start",
 ## Functional Requirements
 
 1. Shows the header and an overview of what to expect.
@@ -30,6 +30,10 @@ The product will help Startups:
 # Setting up the repository
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# App Link
+Kindly click the app link to view
+https://ada-software-engineering-program.github.io/startup-plan/
 
 ## install
 

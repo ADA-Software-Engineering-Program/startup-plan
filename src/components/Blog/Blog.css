@@ -1,0 +1,163 @@
+.blogContainer {
+  background: #ffffff;
+  display: grid;
+  grid-template-columns:repeat(2 , fr);
+  
+  
+}
+.peoplePic {
+  width: 50%; 
+
+  
+  
+}
+.peoplePic .img{
+   width: 50%; 
+  
+  
+}
+.containerC {
+ width: 50%; 
+ height: auto;
+   
+  margin-left: 20px;
+  
+  
+
+  background: rgba(255, 69, 0, 0.2);
+}
+.blogHead {
+  /* width: 307px; */
+  width: 90%;
+  
+  justify-content: center;
+
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+
+  color: #1e1e1e;
+}
+.contentHead {
+  width: 90%;
+  
+  
+  
+  margin-left: 20px;
+  margin-top: 20px;
+
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+.blogcontent1 {
+  width: 90%;
+  
+  margin-top: 20px;
+  margin-left: 20px;
+  
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  color: #1e1e1e;
+}
+.container2 {
+  width: 50%;
+  
+  
+  
+
+  background: rgba(255, 69, 0, 0.2);
+}
+.yet {
+  
+  
+
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+
+  text-transform: capitalize;
+
+  color: #1e1e1e;
+}
+.suitPic {
+  width: 50%;
+  margin-left: 20px;
+  
+}
+.blogWrap {
+  display: flex;
+  min-width: 50%;
+  margin-bottom: 20px;
+}
+.blogWrap2 {
+  display: flex;
+  min-width: 50%;
+}
+
+@media only screen and (max-width: 834px) {
+  .blogWrap{
+    flex-direction: column;
+    min-width: 90%;
+    min-height: 90%;
+  }
+  .blogWrap2{
+    flex-direction: column;
+    width: 90%;
+  }
+  .blogHead{
+    margin-left: 20px;
+  }
+    .contentHead{
+      
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    .containerC{
+      width: 100%;
+      margin-left: 3px;
+      
+    }
+    .peoplePic{
+      width: 100%;
+      
+      margin-left: 3px;
+      margin-bottom: 20px;
+    }
+    .suitPic{
+      width: 100%;
+      margin-left: 3px;
+    
+    }
+    .container2{
+      width: 100%;
+      margin-left: 3px;
+      margin-bottom: 20px;
+    }
+    .yet{
+      font-size: 16px;
+    }
+    
+    }
+    
+  
+  

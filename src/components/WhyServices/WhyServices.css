@@ -1,0 +1,68 @@
+.WSContainer{
+   width: 90%;
+   margin-top: 5%; 
+   margin-left: 5%;
+
+background-color: rgba(255, 69, 0, 0.2);
+}
+.WhyText{
+    text-align: center;
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 53px;
+margin-top: 5%;
+color: #1E1E1E;
+padding-top: 5%;
+}
+
+.Reason{
+    font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 27px;
+text-align: center;
+justify-content: center;
+align-items: center;
+color: #1E1E1E;
+
+}
+.ReasonWrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.circle{
+    border: 2px solid #FF4500; 
+    background: #FF4500;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    
+
+}
+.sLine{
+    
+    border-bottom: 1px solid #1E1E1E;
+    width:25%;
+    
+}
+.lineWrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    position: relative;
+}
+
+@media screen and (max-width:850px)  {
+  .ReasonWrap{
+    flex-direction: column;
+  }
+
+
+}
