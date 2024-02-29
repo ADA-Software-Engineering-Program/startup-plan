@@ -1,5 +1,5 @@
 import React from "react";
-import ServicesNav from "../components/ServicesNav/ServicesNav";
+// import ServicesNav from "../components/ServicesNav/ServicesNav";
 import Header from "../components/Header/Header"
 import ServicesCard from "../components/ServicesCard/ServicesCard";
 
@@ -27,7 +27,7 @@ const OurServices = () => {
       <section className="w-full">
         <header className="w-full">
             
-            <ServicesNav />
+            {/* <ServicesNav /> */}
             <Header />
             </header>
             <ServicesCard />

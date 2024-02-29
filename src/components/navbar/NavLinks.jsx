@@ -7,8 +7,9 @@ const NavLinks = () => {
     <>
       {navData.map((item) => {
         return (
-          <li key={item.id} className="capitalize custom-li">
+          <li key={item.id} className="capitalize custom-li no-underline">
             <NavLink
+            style={{textDecoration: 'none'}}
               aria-current="true"
               to={item.url}
               className={({ isActive }) =>

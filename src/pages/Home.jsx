@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar/Navbar";
+// import Navbar from "../components/navbar/Navbar";
 import HeroSection from "../components/homepage/HeroSection";
 import About from "../components/homepage/About";
 import Card from "../components/homepage/homepagecards/Card";
@@ -7,13 +7,13 @@ import Why from "../components/Why/Why";
 import Blog from "../components/Blog/Blog";
 import Testi from "../components/Testimony/Testi";
 import Footer from "../components/Footer/Footer";
-import Footer2 from "../components/Footer2/Footer2";
+// import Footer2 from "../components/Footer2/Footer2";
 
 const Home = () => {
   return (
     <section className="w-full">
       <header className="w-full min-h-screen">
-        <Navbar />
+        
         <HeroSection />
       </header>
 
@@ -24,7 +24,7 @@ const Home = () => {
         <Blog />
         <Testi />
         <Footer />  
-        <Footer2 />  
+        
       </section>
     </section>
   );
