@@ -34,6 +34,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # App Link
 Kindly click the app link to view
 https://ada-software-engineering-program.github.io/startup-plan/
+
 ## install
 
 - Create the folder in which your project would be located in.
