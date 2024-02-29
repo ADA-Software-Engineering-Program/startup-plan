@@ -1,7 +1,9 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import * as Pages from "./pages";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from "./components/navbar/Navbar";
+import Footer2 from "./components/Footer2/Footer2";
  
 
 
@@ -12,6 +14,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App (){
   return (
     <main className="w-full">
+      <Router>
+        <Navbar/>
       <Routes>
         <Route path="/startup-plan" element={<Pages.Home />} />
         <Route path="/startup-plan/login" element={<Pages.Login />} />
@@ -20,6 +24,8 @@ function App (){
         <Route path="/contact-us" element={<Pages.ContactUs />} />
         
       </Routes>
+      <Footer2/>
+      </Router>
     </main>
     
     

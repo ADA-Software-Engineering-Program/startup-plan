@@ -47,7 +47,7 @@ const Navbar = () => {
             <RiMenu3Fill />
           </button>
         </div>
-        <div className="links-size">
+        <div className="links-size" >
           <ul className={`w-full flex-custom ${showNav && "active-nav"}`}>
             <button
               className="w-full flex justify-start text-orange cursor-pointer hide-desktop pb-5"

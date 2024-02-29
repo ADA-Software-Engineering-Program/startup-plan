@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Navbar from "../../components/navbar/Navbar";
 import PrimaryInput from "../../components/inputs/PrimaryInput";
 import PrimaryPassword from "../../components/inputs/PrimaryPassword";
 import { Link } from "react-router-dom";
@@ -23,7 +22,7 @@ const Login = () => {
   };
   return (
     <section className="w-full ">
-      <Navbar />
+      
       <div className="w-90 min-h-[80vh] mx-auto  flex items-center justify-center mt-8">
         <div className="login-wrapper pt-5 pb-7 mx-auto w-full md:w-[550px] 2md:w-[600px] rounded-sm">
           <h3 className="font-bold uppercase text-center login-caption mt-5">

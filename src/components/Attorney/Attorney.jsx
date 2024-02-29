@@ -46,34 +46,7 @@ const Attorney = () => {
               </Card.Title>
 </Card>
 </div>
-{/* <div>
-<div className="eclip1">
 
-</div>
-<div className="eclip2">
-    <div>
-       <h2> 27 </h2><br/>
-       <h3>Years Of Experience</h3>
-    </div>
-</div>
-<div className="lastwrap">
-<div >
-    <h2>1245</h2><br/>
-    <h2>Satisfied Clients</h2>
-</div>
-<div className="">
-    <h2>50</h2><br/>
-    <h2>Consultants</h2>
-</div>
-<h2>110</h2>
-<h2>Employers</h2>
-</div>
-
-
-
-
-
-</div> */}
 </div>
 </section>
 
